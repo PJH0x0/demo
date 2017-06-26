@@ -13,7 +13,7 @@
 
 ## 时序图
 
-![时序图](https://github.com/JohnyPeng/Note/blob/master/Android/analysisSourceCode/Wifi%E6%89%93%E5%BC%80%E5%85%B3%E9%97%AD%E5%88%86%E6%9E%90/%E6%97%B6%E5%BA%8F%E5%9B%BE.png)
+![时序图](https://github.com/JohnyPeng/Note/blob/master/Android/analysisSourceCode/Wifi%E6%89%93%E5%BC%80%E5%85%B3%E9%97%AD%E5%88%86%E6%9E%90/%E6%97%B6%E5%BA%8F%E5%9B%BE.png?raw=true)
 
 ## Settings内部流程
 ```java
