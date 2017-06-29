@@ -20,7 +20,15 @@ Settings里面的搜索框架是基于数据库来实现的，数据库的名称
 > 1. adb shell
 > 2. find . "search_index.db"
 
+# 类图
+
+![数据存储的类图](https://github.com/JohnyPeng/Note/blob/master/Android/src/Settings%E6%90%9C%E7%B4%A2%E6%A1%86%E6%9E%B6/Settings%E6%90%9C%E7%B4%A2%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9B%BE.png?raw=true)
+
 # 插入数据
+
+## 流程图
+
+![插入数据的流程](https://github.com/JohnyPeng/Note/blob/master/Android/src/Settings%E6%90%9C%E7%B4%A2%E6%A1%86%E6%9E%B6/Settings%E6%8F%92%E5%85%A5%E6%95%B0%E6%8D%AE%E6%B5%81%E7%A8%8B%E5%9B%BE.png?raw=true)
 
 ## 1. 声明数据
 
@@ -88,6 +96,7 @@ public class SettingsSearchIndexablesProvider extends SearchIndexablesProvider {
     }
 }
 
+//SearchIndexablesProvider.java
 @SystemApi
 public abstract class SearchIndexablesProvider extends ContentProvider {
     private static final String TAG = "IndexablesProvider";
