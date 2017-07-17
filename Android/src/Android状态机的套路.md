@@ -4,7 +4,11 @@
 
 # 类的结构图
 
-本文会涉及到一些StateMachine的内部类以及结构，这里直接表现出来
+本文会涉及到一些StateMachine的内部类以及结构，
+
+![State](https://github.com/JohnyPeng/Note/blob/master/Android/src/Android%E7%8A%B6%E6%80%81%E6%9C%BA%E7%9A%84%E5%A5%97%E8%B7%AF/State.png?raw=true)
+
+![StateMachine](https://github.com/JohnyPeng/Note/blob/master/Android/src/Android%E7%8A%B6%E6%80%81%E6%9C%BA%E7%9A%84%E5%A5%97%E8%B7%AF/StateMachine.png?raw=true)
 
 # 状态机的初始化
 
