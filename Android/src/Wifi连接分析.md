@@ -6,6 +6,8 @@
 
 以下是我整理的时序图
 
+![时序图](https://github.com/JohnyPeng/Note/blob/master/Android/src/Wifi%E8%BF%9E%E6%8E%A5%E5%88%86%E6%9E%90/WifiConnect%E6%97%B6%E5%BA%8F%E5%9B%BE.png?raw=true)
+
 # 代码分析
 
 ## 涉及的代码
