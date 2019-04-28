@@ -1,14 +1,12 @@
 # Note
 
-# Tree of project
+# The tree of project
 .<br/>
 ├── android<br/>
-│&nbsp;&nbsp;&nbsp;&nbsp;├── HelloState<br/>
-│&nbsp;&nbsp;&nbsp;&nbsp;├── MessengerDemo<br/>
-│&nbsp;&nbsp;&nbsp;&nbsp;└── NDKDemo<br/>
+│   ├── HelloState<br/>
+│   ├── MessengerDemo<br/>
+│   └── NDKDemo<br/>
 ├── LICENSE<br/>
 ├── os-three-pieces<br/>
-│&nbsp;&nbsp;&nbsp;&nbsp;└── Virtualization<br/>
+│   └── Virtualization<br/>
 └── README.md<br/>
-&nbsp;
-
