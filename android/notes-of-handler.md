@@ -1,3 +1,0 @@
-# 前言
-
-Handler使用的时候由于Handler和Activity的声明周期不一样，容易造成泄露，需要使用Handler
