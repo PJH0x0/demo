@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SetupWizardDemo</string>
+    <string name="sim_missing_text">Demo for sim missing</string>
 </resources>
