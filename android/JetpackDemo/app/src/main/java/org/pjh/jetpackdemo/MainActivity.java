@@ -19,29 +19,27 @@ import org.pjh.jetpackdemo.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
     TimerViewModel mViewModel;
+    ActivityMainBinding binding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_main);
-        final ActivityMainBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
 
         Log.d("jonny", "onCreate");
         binding.setTimer("start");
         final TextView timerCountTextView = findViewById(R.id.timer_count);
         Button startTimerButton = findViewById(R.id.start_timer);
         Button resetTimerButton = findViewById(R.id.reset_timer);
-        mViewModel = ViewModelProvider.AndroidViewModelFactory.getInstance(getApplication())
-                .create(TimerViewModel.class);
-        mViewModel.getMutableLiveData().observe(this, new Observer<Integer>() {
-            @Override
-            public void onChanged(Integer integer) {
-                if (null == integer) return;
-                binding.setTimer(String.valueOf(integer));
-            }
-        });
+        mViewModel = new ViewModelProvider(this, ViewModelProvider.AndroidViewModelFactory.getInstance(getApplication())).get(TimerViewModel.class);
+
+
+
         startTimerButton.setOnClickListener(mListener);
         resetTimerButton.setOnClickListener(mListener);
     }
+
+
 
     private final View.OnClickListener mListener = new View.OnClickListener() {
         @Override
@@ -60,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
+        //mViewModel.getMutableLiveData().postValue(1000);
         Log.d("jonny", "onStart");
     }
 
@@ -67,5 +66,27 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         Log.d("jonny", "onResume");
+        mViewModel.getMutableLiveData().postValue(1000);
+        mViewModel.getMutableLiveData().observe(this, new Observer<Integer>() {
+            @Override
+            public void onChanged(Integer integer) {
+                if (null == integer) return;
+                binding.setTimer(String.valueOf(integer));
+            }
+        });
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        getLifecycle().addObserver(new MyLifecycleObserver());
+        Log.d("jonny", "onPause");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+
+        Log.d("jonny", "onPause");
     }
 }

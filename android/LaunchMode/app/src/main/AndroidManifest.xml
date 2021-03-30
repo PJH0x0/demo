@@ -8,16 +8,15 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:process=":LaunchMode"
         android:theme="@style/Theme.LaunchMode">
         <activity android:name=".SingleInstanceActivity"
             android:label="@string/title_single_instance"
             android:launchMode="singleInstance"
-            android:taskAffinity="pers.demo.instance"
             />
         <activity android:name=".SingleTaskActivity"
             android:label="@string/title_single_task"
             android:launchMode="singleTask"
-            android:taskAffinity="pers.demo.stack"
             />
         <activity
             android:name=".SingleTopActivity"
