@@ -28,24 +28,36 @@
             android:id="@+id/start_timer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Start timer"
+            android:text="@string/start_timer"
             app:layout_constraintBottom_toTopOf="@+id/timer_count"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.324" />
 
         <Button
             android:id="@+id/reset_timer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="106dp"
-            android:text="Reset timer"
+            android:text="@string/reset_timer"
             app:layout_constraintBottom_toTopOf="@+id/timer_count"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/start_timer"
             app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            app:layout_constraintBottom_toTopOf="@+id/timer_count"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/reset_timer" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

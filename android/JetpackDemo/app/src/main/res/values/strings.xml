@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">JetpackDemo</string>
+    <string name="login">Login</string>
+    <string name="reset_timer">Reset timer</string>
+    <string name="start_timer">Start timer</string>
 </resources>
