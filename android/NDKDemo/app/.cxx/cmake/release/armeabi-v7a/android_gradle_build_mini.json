@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/Users/illusion/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "/Users/illusion/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/Users/illusion/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/illusion/github/demo/android/NDKDemo/app/.cxx/cmake/release/armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/illusion/github/demo/android/NDKDemo/app/.cxx/cmake/release/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Release-armeabi-v7a": {
+      "artifactName": "native-lib",
+      "buildCommand": "/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/illusion/github/demo/android/NDKDemo/app/.cxx/cmake/release/armeabi-v7a\" native-lib",
+      "abi": "armeabi-v7a",
+      "output": "/Users/illusion/github/demo/android/NDKDemo/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so",
+      "runtimeFiles": []
+    },
+    "native-dynamic-lib-Release-armeabi-v7a": {
+      "artifactName": "native-dynamic-lib",
+      "buildCommand": "/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/illusion/github/demo/android/NDKDemo/app/.cxx/cmake/release/armeabi-v7a\" native-dynamic-lib",
+      "abi": "armeabi-v7a",
+      "output": "/Users/illusion/github/demo/android/NDKDemo/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-dynamic-lib.so",
+      "runtimeFiles": []
+    }
+  }
+}

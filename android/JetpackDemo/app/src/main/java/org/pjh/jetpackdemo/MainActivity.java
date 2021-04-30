@@ -2,14 +2,13 @@ package org.pjh.jetpackdemo;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
-import androidx.lifecycle.LifecycleObserver;
-import androidx.lifecycle.LiveData;
-import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
+import android.os.Message;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -17,9 +16,13 @@ import android.widget.TextView;
 
 import org.pjh.jetpackdemo.databinding.ActivityMainBinding;
 
+import java.util.concurrent.atomic.AtomicReference;
+
+
 public class MainActivity extends AppCompatActivity {
     TimerViewModel mViewModel;
     ActivityMainBinding binding;
+    Handler handler;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,6 +42,30 @@ public class MainActivity extends AppCompatActivity {
         startTimerButton.setOnClickListener(mListener);
         resetTimerButton.setOnClickListener(mListener);
         loginButton.setOnClickListener(mListener);
+
+        new Thread(()->{
+            Looper.prepare();
+            handler = new Handler(Looper.myLooper()){
+                @Override
+                public void handleMessage(Message msg) {
+                    Log.d("jonny", "handleMessage: " + msg.what);
+                }
+            };
+            synchronized (MainActivity.this) {
+                notifyAll();
+            }
+
+            Looper.loop();
+        }).start();
+        synchronized (this) {
+            while (null == handler) {
+                try {
+                    wait();
+                } catch (InterruptedException e) {
+                }
+            }
+        }
+        handler.sendEmptyMessage(0);
     }
 
 

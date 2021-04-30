@@ -56,7 +56,8 @@ public class TimerViewModel extends ViewModel {
                 String mImei = "863408023058028";
                 String pkgName = "com.ape.onelogin";
                 try {
-                    RequestService.getInstance().loginEmail(mImei, pkgName, email, password);
+                    //RequestService.getInstance().loginEmail(mImei, pkgName, email, password);
+                    RequestService.getInstance().testGetWechatAccessToken();
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
