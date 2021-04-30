@@ -9,10 +9,13 @@ import org.pjh.jetpackdemo.model.RequestService;
 import org.pjh.jetpackdemo.model.Utils;
 
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.Timer;
 import java.util.TimerTask;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class TimerViewModel extends ViewModel {
+
 
     MutableLiveData<Integer> mutableLiveData;
     Timer mTimer;
