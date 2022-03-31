@@ -5,9 +5,9 @@
     "environmentVariables": []
   },
   "cmake": {
-    "cmakeArtifactsBaseFolder": "/Users/illusion/github/demo/android/NDKDemo/app/.cxx/cmake/debug/x86",
-    "cmakeServerLogFile": "/Users/illusion/github/demo/android/NDKDemo/app/.cxx/cmake/debug/x86/cmake_server_log.txt",
-    "cmakeWrappingBaseFolder": "/Users/illusion/github/demo/android/NDKDemo/app/.cxx/cxx/debug/x86",
+    "cmakeArtifactsBaseFolder": "/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/debug/x86",
+    "cmakeServerLogFile": "/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/debug/x86/cmake_server_log.txt",
+    "cmakeWrappingBaseFolder": "/home/mi/github/demo/android/NDKDemo/app/.cxx/cxx/debug/x86",
     "effectiveConfiguration": {
       "name": "traditional-android-studio-cmake-environment",
       "description": "Composite reified CMakeSettings configuration",
@@ -15,9 +15,9 @@
       "inheritEnvironments": [
         "ndk"
       ],
-      "buildRoot": "/Users/illusion/github/demo/android/NDKDemo/app/.cxx/cmake/debug/x86",
-      "cmakeToolchain": "/Users/illusion/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
-      "cmakeExecutable": "/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
+      "buildRoot": "/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/debug/x86",
+      "cmakeToolchain": "/home/mi/android-studio/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+      "cmakeExecutable": "/home/mi/android-studio/sdk/cmake/3.10.2.4988404/bin/cmake",
       "variables": [
         {
           "name": "CMAKE_CXX_FLAGS",
@@ -25,7 +25,7 @@
         },
         {
           "name": "CMAKE_FIND_ROOT_PATH",
-          "value": "/Users/illusion/github/demo/android/NDKDemo/app/.cxx/cmake/debug/prefab/x86/prefab"
+          "value": "/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/debug/prefab/x86/prefab"
         },
         {
           "name": "CMAKE_BUILD_TYPE",
@@ -33,7 +33,7 @@
         },
         {
           "name": "CMAKE_TOOLCHAIN_FILE",
-          "value": "/Users/illusion/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake"
+          "value": "/home/mi/android-studio/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake"
         },
         {
           "name": "ANDROID_ABI",
@@ -41,7 +41,7 @@
         },
         {
           "name": "ANDROID_NDK",
-          "value": "/Users/illusion/Library/Android/sdk/ndk/21.1.6352462"
+          "value": "/home/mi/android-studio/sdk/ndk/21.1.6352462"
         },
         {
           "name": "ANDROID_PLATFORM",
@@ -53,7 +53,7 @@
         },
         {
           "name": "CMAKE_ANDROID_NDK",
-          "value": "/Users/illusion/Library/Android/sdk/ndk/21.1.6352462"
+          "value": "/home/mi/android-studio/sdk/ndk/21.1.6352462"
         },
         {
           "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
@@ -61,11 +61,11 @@
         },
         {
           "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
-          "value": "/Users/illusion/github/demo/android/NDKDemo/app/build/intermediates/cmake/debug/obj/x86"
+          "value": "/home/mi/github/demo/android/NDKDemo/app/build/intermediates/cmake/debug/obj/x86"
         },
         {
           "name": "CMAKE_MAKE_PROGRAM",
-          "value": "/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja"
+          "value": "/home/mi/android-studio/sdk/cmake/3.10.2.4988404/bin/ninja"
         },
         {
           "name": "CMAKE_SYSTEM_NAME",
@@ -78,14 +78,14 @@
       ]
     }
   },
-  "cxxBuildFolder": "/Users/illusion/github/demo/android/NDKDemo/app/.cxx/cmake/debug/x86",
+  "cxxBuildFolder": "/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/debug/x86",
   "info": {
     "abi": "X86",
     "bitness": 32,
     "deprecated": false,
     "default": true
   },
-  "originalCxxBuildFolder": "/Users/illusion/github/demo/android/NDKDemo/app/.cxx/cmake/debug/x86",
+  "originalCxxBuildFolder": "/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/debug/x86",
   "variant": {
     "buildSystemArgumentList": [],
     "buildTargetSet": [],
@@ -99,24 +99,24 @@
     "module": {
       "buildSystem": "CMAKE",
       "cmake": {
-        "cmakeExe": "/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
+        "cmakeExe": "/home/mi/android-studio/sdk/cmake/3.10.2.4988404/bin/cmake",
         "minimumCmakeVersion": "3.10.2",
-        "ninjaExe": "/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja"
+        "ninjaExe": "/home/mi/android-studio/sdk/cmake/3.10.2.4988404/bin/ninja"
       },
-      "cmakeToolchainFile": "/Users/illusion/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
-      "cxxFolder": "/Users/illusion/github/demo/android/NDKDemo/app/.cxx",
+      "cmakeToolchainFile": "/home/mi/android-studio/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+      "cxxFolder": "/home/mi/github/demo/android/NDKDemo/app/.cxx",
       "gradleModulePathName": ":app",
-      "intermediatesFolder": "/Users/illusion/github/demo/android/NDKDemo/app/build/intermediates",
-      "makeFile": "/Users/illusion/github/demo/android/NDKDemo/app/CMakeLists.txt",
-      "moduleBuildFile": "/Users/illusion/github/demo/android/NDKDemo/app/build.gradle",
-      "moduleRootFolder": "/Users/illusion/github/demo/android/NDKDemo/app",
+      "intermediatesFolder": "/home/mi/github/demo/android/NDKDemo/app/build/intermediates",
+      "makeFile": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+      "moduleBuildFile": "/home/mi/github/demo/android/NDKDemo/app/build.gradle",
+      "moduleRootFolder": "/home/mi/github/demo/android/NDKDemo/app",
       "ndkDefaultAbiList": [
         "ARMEABI_V7A",
         "ARM64_V8A",
         "X86",
         "X86_64"
       ],
-      "ndkFolder": "/Users/illusion/Library/Android/sdk/ndk/21.1.6352462",
+      "ndkFolder": "/home/mi/android-studio/sdk/ndk/21.1.6352462",
       "ndkMetaAbiList": [
         {
           "abi": "ARMEABI_V7A",
@@ -173,29 +173,29 @@
       "ndkDefaultStl": "LIBCXX_STATIC",
       "ndkVersion": "21.1.6352462",
       "project": {
-        "compilerSettingsCacheFolder": "/Users/illusion/github/demo/android/NDKDemo/.cxx",
-        "cxxFolder": "/Users/illusion/github/demo/android/NDKDemo/.cxx",
+        "compilerSettingsCacheFolder": "/home/mi/github/demo/android/NDKDemo/.cxx",
+        "cxxFolder": "/home/mi/github/demo/android/NDKDemo/.cxx",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
-        "rootBuildGradleFolder": "/Users/illusion/github/demo/android/NDKDemo",
-        "sdkFolder": "/Users/illusion/Library/Android/sdk",
+        "rootBuildGradleFolder": "/home/mi/github/demo/android/NDKDemo",
+        "sdkFolder": "/home/mi/android-studio/sdk",
         "isPrefabEnabled": false
       },
       "splitsAbiFilterSet": [],
       "stlSharedObjectMap": {
         "LIBCXX_SHARED": {
-          "ARMEABI_V7A": "/Users/illusion/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
-          "ARM64_V8A": "/Users/illusion/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
-          "X86": "/Users/illusion/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
-          "X86_64": "/Users/illusion/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
+          "ARMEABI_V7A": "/home/mi/android-studio/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
+          "ARM64_V8A": "/home/mi/android-studio/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+          "X86": "/home/mi/android-studio/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
+          "X86_64": "/home/mi/android-studio/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
         },
         "LIBCXX_STATIC": {},
         "NONE": {},
         "SYSTEM": {}
       }
     },
-    "objFolder": "/Users/illusion/github/demo/android/NDKDemo/app/build/intermediates/cmake/debug/obj",
+    "objFolder": "/home/mi/github/demo/android/NDKDemo/app/build/intermediates/cmake/debug/obj",
     "variantName": "debug",
     "validAbiList": [
       "ARMEABI_V7A",
@@ -203,8 +203,8 @@
       "X86",
       "X86_64"
     ],
-    "prefabDirectory": "/Users/illusion/github/demo/android/NDKDemo/app/.cxx/cmake/debug/prefab",
+    "prefabDirectory": "/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/debug/prefab",
     "prefabPackageDirectoryList": []
   },
-  "prefabFolder": "/Users/illusion/github/demo/android/NDKDemo/app/.cxx/cmake/debug/prefab/x86"
+  "prefabFolder": "/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/debug/prefab/x86"
 }

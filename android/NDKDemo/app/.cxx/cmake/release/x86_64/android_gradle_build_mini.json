@@ -1,26 +1,26 @@
 {
   "buildFiles": [
-    "/Users/illusion/github/demo/android/NDKDemo/app/CMakeLists.txt",
-    "/Users/illusion/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
-    "/Users/illusion/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+    "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "/home/mi/android-studio/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/home/mi/android-studio/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
   ],
   "cleanCommands": [
-    "/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/illusion/github/demo/android/NDKDemo/app/.cxx/cmake/release/x86_64\" clean"
+    "/home/mi/android-studio/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/release/x86_64\" clean"
   ],
-  "buildTargetsCommand": "/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/illusion/github/demo/android/NDKDemo/app/.cxx/cmake/release/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "/home/mi/android-studio/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/release/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "native-lib-Release-x86_64": {
       "artifactName": "native-lib",
-      "buildCommand": "/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/illusion/github/demo/android/NDKDemo/app/.cxx/cmake/release/x86_64\" native-lib",
+      "buildCommand": "/home/mi/android-studio/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/release/x86_64\" native-lib",
       "abi": "x86_64",
-      "output": "/Users/illusion/github/demo/android/NDKDemo/app/build/intermediates/cmake/release/obj/x86_64/libnative-lib.so",
+      "output": "/home/mi/github/demo/android/NDKDemo/app/build/intermediates/cmake/release/obj/x86_64/libnative-lib.so",
       "runtimeFiles": []
     },
     "native-dynamic-lib-Release-x86_64": {
       "artifactName": "native-dynamic-lib",
-      "buildCommand": "/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/illusion/github/demo/android/NDKDemo/app/.cxx/cmake/release/x86_64\" native-dynamic-lib",
+      "buildCommand": "/home/mi/android-studio/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/release/x86_64\" native-dynamic-lib",
       "abi": "x86_64",
-      "output": "/Users/illusion/github/demo/android/NDKDemo/app/build/intermediates/cmake/release/obj/x86_64/libnative-dynamic-lib.so",
+      "output": "/home/mi/github/demo/android/NDKDemo/app/build/intermediates/cmake/release/obj/x86_64/libnative-dynamic-lib.so",
       "runtimeFiles": []
     }
   }

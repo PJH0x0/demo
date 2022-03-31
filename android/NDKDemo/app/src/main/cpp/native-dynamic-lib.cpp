@@ -22,7 +22,7 @@ jint add(JNIEnv *env, jclass clz, jint a, jint b) {
 void call_java_static_method(JNIEnv *env, jclass clz) {
     LOGI("call_java_static_method()");
     //1. Find class
-    jclass clazz = env->FindClass("com/example/ndktest/CallMethodFromJni");
+    jclass clazz = env->FindClass("com/example/ndkdemo/CallMethodFromJni");
     if (NULL == clazz) {
         LOGI("NOT FOUND CLASS");
     }
@@ -41,7 +41,7 @@ void call_java_static_method(JNIEnv *env, jclass clz) {
 void call_java_instance_method(JNIEnv *env, jclass clz) {
     LOGI("call_java_instance_method()");
     //1. Find class
-    jclass clazz = env->FindClass("com/example/ndktest/CallMethodFromJni");
+    jclass clazz = env->FindClass("com/example/ndkdemo/CallMethodFromJni");
     if (NULL == clazz) {
         LOGI("NOT FOUND CLASS");
     }
@@ -101,7 +101,7 @@ static JNINativeMethod gMethods[] = {
     }
 
     //2. Find class
-    jclass clazz = env->FindClass("com/example/ndktest/DynamicJniTest");
+    jclass clazz = env->FindClass("com/example/ndkdemo/DynamicJniTest");
     if (clazz == NULL) {
         LOGI("JNI_OnLoad clazz == NULL");
         return result;

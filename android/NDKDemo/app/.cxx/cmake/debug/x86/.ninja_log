@@ -1,0 +1,6 @@
+# ninja log v5
+0	56	1648717297	CMakeFiles/native-dynamic-lib.dir/src/main/cpp/native-dynamic-lib.cpp.o	7eda4eaee464fe29
+56	80	1648717297	../../../../build/intermediates/cmake/debug/obj/x86/libnative-dynamic-lib.so	ec74e76b463a922e
+0	219	1648717297	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	464aee2cc024927
+219	239	1648717297	../../../../build/intermediates/cmake/debug/obj/x86/libnative-lib.so	614a613fee260b80
+0	2	0	clean	8b81e3d79c3bc836

@@ -1,0 +1,6 @@
+# ninja log v5
+0	75	1648717296	CMakeFiles/native-dynamic-lib.dir/src/main/cpp/native-dynamic-lib.cpp.o	10c7a5908ff39188
+75	101	1648717296	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-dynamic-lib.so	78ca8cb18ba305f7
+0	241	1648717296	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	bb02e02a48377214
+241	262	1648717296	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	65893e2ce41cba63
+0	2	0	clean	8b81e3d79c3bc836

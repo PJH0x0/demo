@@ -1,0 +1,5 @@
+ninja: Entering directory `/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/debug/x86'
+[1/4] Building CXX object CMakeFiles/native-dynamic-lib.dir/src/main/cpp/native-dynamic-lib.cpp.o
+[2/4] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/x86/libnative-dynamic-lib.so
+[3/4] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o
+[4/4] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/x86/libnative-lib.so

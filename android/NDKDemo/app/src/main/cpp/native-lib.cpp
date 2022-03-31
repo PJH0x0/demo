@@ -4,15 +4,17 @@
 extern "C" JNIEXPORT jstring
 
 JNICALL
-Java_com_example_ndktest_MainActivity_stringFromJNI(
+Java_com_example_ndkdemo_MainActivity_stringFromJNI(
         JNIEnv *env,
         jobject /* this */) {
     std::string hello = "Hello from C++";
+    char* p = NULL;
+    *p = 2;
     return env->NewStringUTF(hello.c_str());
 }
 extern "C"
 JNIEXPORT jstring JNICALL
-Java_com_example_ndktest_StaticJniTest_getPackageName(JNIEnv *env, jclass type) {
+Java_com_example_ndkdemo_StaticJniTest_getPackageName(JNIEnv *env, jclass type) {
 
     // TODO
 

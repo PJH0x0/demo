@@ -1,4 +1,4 @@
-/Users/illusion/github/demo/android/NDKDemo/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
-/Users/illusion/github/demo/android/NDKDemo/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
-/Users/illusion/github/demo/android/NDKDemo/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/native-dynamic-lib.dir
-/Users/illusion/github/demo/android/NDKDemo/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/native-lib.dir
+/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/native-dynamic-lib.dir
+/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/native-lib.dir

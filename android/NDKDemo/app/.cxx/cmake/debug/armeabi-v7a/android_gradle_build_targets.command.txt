@@ -1,0 +1,8 @@
+Executable : /home/mi/android-studio/sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/debug/armeabi-v7a
+native-dynamic-lib
+native-lib
+jvmArgs : 
+
