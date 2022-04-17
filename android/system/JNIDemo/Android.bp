@@ -1,0 +1,17 @@
+android_app {
+    name: "JNIDemo",
+    srcs: [
+        "src/**/*.java",
+    ],
+    resource_dirs: ["res"],
+    platform_apis: true,
+    certificate: "platform",
+    jni_libs: [
+        "libnative_dynamic_jni",
+        "libnative_static_jni"
+    ],
+    optimize: {
+        enabled: false,
+    },
+    
+}

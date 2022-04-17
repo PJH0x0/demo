@@ -1,6 +1,7 @@
 # ninja log v5
-0	72	1648717296	CMakeFiles/native-dynamic-lib.dir/src/main/cpp/native-dynamic-lib.cpp.o	f305e5733d2341cd
-72	93	1648717296	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-dynamic-lib.so	184d500ce5548431
-0	229	1648717296	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	fe5ba055a59b009d
-229	275	1648717297	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	9bc496aa83d5b646
-0	1	0	clean	8b81e3d79c3bc836
+0	135	1650122284	CMakeFiles/native-dynamic-lib.dir/src/main/cpp/native-dynamic-lib.cpp.o	762192e6454c07de
+136	180	1650122285	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-dynamic-lib.so	5aca3dddd031eb41
+0	367	1650122285	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	9643744efce3a167
+368	465	1650122285	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	ef954fa10c980eb5
+2	674	1650122359	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	9643744efce3a167
+674	761	1650122359	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	ef954fa10c980eb5

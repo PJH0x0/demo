@@ -1,0 +1,105 @@
+getTemperatures:
+ Type: UNKNOWN Name: sdm-therm CurrentValue: 33.737 ThrottlingThreshold: nan ShutdownThreshold: nan VrThrottlingThreshold: nan
+ Type: UNKNOWN Name: panel-audio-therm CurrentValue: 25.033 ThrottlingThreshold: nan ShutdownThreshold: nan VrThrottlingThreshold: nan
+ Type: UNKNOWN Name: usbc-virt-monitor CurrentValue: -274 ThrottlingThreshold: nan ShutdownThreshold: nan VrThrottlingThreshold: nan
+ Type: UNKNOWN Name: cellular-emergency CurrentValue: 25.033 ThrottlingThreshold: nan ShutdownThreshold: nan VrThrottlingThreshold: nan
+ Type: BATTERY Name: battery CurrentValue: 23.8 ThrottlingThreshold: nan ShutdownThreshold: 60 VrThrottlingThreshold: nan
+ Type: GPU Name: gpuss-0-usr CurrentValue: 34.5 ThrottlingThreshold: 95 ShutdownThreshold: 125 VrThrottlingThreshold: nan
+ Type: CPU Name: cpu-1-3-usr CurrentValue: 48.1 ThrottlingThreshold: 95 ShutdownThreshold: 125 VrThrottlingThreshold: nan
+ Type: CPU Name: cpu-1-2-usr CurrentValue: 40.1 ThrottlingThreshold: 95 ShutdownThreshold: 125 VrThrottlingThreshold: nan
+ Type: CPU Name: cpu-1-0-usr CurrentValue: 39.1 ThrottlingThreshold: 95 ShutdownThreshold: 125 VrThrottlingThreshold: nan
+ Type: GPU Name: gpuss-1-usr CurrentValue: 34.2 ThrottlingThreshold: 95 ShutdownThreshold: 125 VrThrottlingThreshold: nan
+ Type: CPU Name: cpu-0-5-usr CurrentValue: 39.1 ThrottlingThreshold: 95 ShutdownThreshold: 125 VrThrottlingThreshold: nan
+ Type: CPU Name: cpu-0-0-usr CurrentValue: 37.8 ThrottlingThreshold: 95 ShutdownThreshold: 125 VrThrottlingThreshold: nan
+ Type: CPU Name: cpu-0-4-usr CurrentValue: 38.5 ThrottlingThreshold: 95 ShutdownThreshold: 125 VrThrottlingThreshold: nan
+ Type: SKIN Name: skin-therm-monitor CurrentValue: 25.036 ThrottlingThreshold: 43 ShutdownThreshold: 55 VrThrottlingThreshold: nan
+ Type: CPU Name: cpu-1-1-usr CurrentValue: 44.5 ThrottlingThreshold: 95 ShutdownThreshold: 125 VrThrottlingThreshold: nan
+ Type: CPU Name: cpu-0-1-usr CurrentValue: 37.8 ThrottlingThreshold: 95 ShutdownThreshold: 125 VrThrottlingThreshold: nan
+ Type: CPU Name: cpu-0-3-usr CurrentValue: 37.8 ThrottlingThreshold: 95 ShutdownThreshold: 125 VrThrottlingThreshold: nan
+ Type: CPU Name: cpu-0-2-usr CurrentValue: 37.1 ThrottlingThreshold: 95 ShutdownThreshold: 125 VrThrottlingThreshold: nan
+getCpuUsages:
+ Name: cpu0 Active: 1888 Total: 9443 IsOnline: 1
+ Name: cpu1 Active: 2006 Total: 9395 IsOnline: 1
+ Name: cpu2 Active: 1848 Total: 9719 IsOnline: 1
+ Name: cpu3 Active: 1675 Total: 9691 IsOnline: 1
+ Name: cpu4 Active: 2079 Total: 9723 IsOnline: 1
+ Name: cpu5 Active: 1934 Total: 9710 IsOnline: 1
+ Name: cpu6 Active: 2623 Total: 9719 IsOnline: 1
+ Name: cpu7 Active: 3295 Total: 9733 IsOnline: 1
+getCurrentTemperatures:
+ Type: UNKNOWN Name: sdm-therm CurrentValue: 33.728 ThrottlingStatus: NONE
+ Type: UNKNOWN Name: panel-audio-therm CurrentValue: 25.036 ThrottlingStatus: NONE
+ Type: USB_PORT Name: usbc-virt-monitor CurrentValue: -274 ThrottlingStatus: NONE
+ Type: POWER_AMPLIFIER Name: cellular-emergency CurrentValue: 25.033 ThrottlingStatus: NONE
+ Type: BATTERY Name: battery CurrentValue: 23.8 ThrottlingStatus: NONE
+ Type: GPU Name: gpuss-0-usr CurrentValue: 34.2 ThrottlingStatus: NONE
+ Type: CPU Name: cpu-1-3-usr CurrentValue: 48.4 ThrottlingStatus: NONE
+ Type: CPU Name: cpu-1-2-usr CurrentValue: 39.8 ThrottlingStatus: NONE
+ Type: CPU Name: cpu-1-0-usr CurrentValue: 39.1 ThrottlingStatus: NONE
+ Type: GPU Name: gpuss-1-usr CurrentValue: 34.2 ThrottlingStatus: NONE
+ Type: CPU Name: cpu-0-5-usr CurrentValue: 39.1 ThrottlingStatus: NONE
+ Type: CPU Name: cpu-0-0-usr CurrentValue: 37.8 ThrottlingStatus: NONE
+ Type: CPU Name: cpu-0-4-usr CurrentValue: 38.1 ThrottlingStatus: NONE
+ Type: SKIN Name: skin-therm-monitor CurrentValue: 25.024 ThrottlingStatus: NONE
+ Type: CPU Name: cpu-1-1-usr CurrentValue: 44.8 ThrottlingStatus: NONE
+ Type: CPU Name: cpu-0-1-usr CurrentValue: 37.8 ThrottlingStatus: NONE
+ Type: CPU Name: cpu-0-3-usr CurrentValue: 37.5 ThrottlingStatus: NONE
+ Type: CPU Name: cpu-0-2-usr CurrentValue: 36.8 ThrottlingStatus: NONE
+getTemperatureThresholds:
+ Type: UNKNOWN Name: sdm-therm hotThrottlingThreshold: [nan nan nan nan nan nan nan ] coldThrottlingThreshold: [nan nan nan nan nan nan nan ] vrThrottlingThreshold: nan
+ Type: UNKNOWN Name: panel-audio-therm hotThrottlingThreshold: [nan 42 nan nan nan nan nan ] coldThrottlingThreshold: [nan nan nan nan nan nan nan ] vrThrottlingThreshold: nan
+ Type: USB_PORT Name: usbc-virt-monitor hotThrottlingThreshold: [nan nan nan nan nan 15 nan ] coldThrottlingThreshold: [nan nan nan nan nan nan nan ] vrThrottlingThreshold: nan
+ Type: POWER_AMPLIFIER Name: cellular-emergency hotThrottlingThreshold: [nan nan nan nan nan 53 nan ] coldThrottlingThreshold: [nan nan nan nan nan nan nan ] vrThrottlingThreshold: nan
+ Type: BATTERY Name: battery hotThrottlingThreshold: [nan nan nan nan nan nan 60 ] coldThrottlingThreshold: [nan nan nan nan nan nan nan ] vrThrottlingThreshold: nan
+ Type: GPU Name: gpuss-0-usr hotThrottlingThreshold: [nan nan nan 95 nan nan 125 ] coldThrottlingThreshold: [nan nan nan nan nan nan nan ] vrThrottlingThreshold: nan
+ Type: CPU Name: cpu-1-3-usr hotThrottlingThreshold: [nan nan nan 95 nan nan 125 ] coldThrottlingThreshold: [nan nan nan nan nan nan nan ] vrThrottlingThreshold: nan
+ Type: CPU Name: cpu-1-2-usr hotThrottlingThreshold: [nan nan nan 95 nan nan 125 ] coldThrottlingThreshold: [nan nan nan nan nan nan nan ] vrThrottlingThreshold: nan
+ Type: CPU Name: cpu-1-0-usr hotThrottlingThreshold: [nan nan nan 95 nan nan 125 ] coldThrottlingThreshold: [nan nan nan nan nan nan nan ] vrThrottlingThreshold: nan
+ Type: GPU Name: gpuss-1-usr hotThrottlingThreshold: [nan nan nan 95 nan nan 125 ] coldThrottlingThreshold: [nan nan nan nan nan nan nan ] vrThrottlingThreshold: nan
+ Type: CPU Name: cpu-0-5-usr hotThrottlingThreshold: [nan nan nan 95 nan nan 125 ] coldThrottlingThreshold: [nan nan nan nan nan nan nan ] vrThrottlingThreshold: nan
+ Type: CPU Name: cpu-0-0-usr hotThrottlingThreshold: [nan nan nan 95 nan nan 125 ] coldThrottlingThreshold: [nan nan nan nan nan nan nan ] vrThrottlingThreshold: nan
+ Type: CPU Name: cpu-0-4-usr hotThrottlingThreshold: [nan nan nan 95 nan nan 125 ] coldThrottlingThreshold: [nan nan nan nan nan nan nan ] vrThrottlingThreshold: nan
+ Type: SKIN Name: skin-therm-monitor hotThrottlingThreshold: [nan 37 41 43 45 51 55 ] coldThrottlingThreshold: [nan nan nan nan nan nan nan ] vrThrottlingThreshold: nan
+ Type: CPU Name: cpu-1-1-usr hotThrottlingThreshold: [nan nan nan 95 nan nan 125 ] coldThrottlingThreshold: [nan nan nan nan nan nan nan ] vrThrottlingThreshold: nan
+ Type: CPU Name: cpu-0-1-usr hotThrottlingThreshold: [nan nan nan 95 nan nan 125 ] coldThrottlingThreshold: [nan nan nan nan nan nan nan ] vrThrottlingThreshold: nan
+ Type: CPU Name: cpu-0-3-usr hotThrottlingThreshold: [nan nan nan 95 nan nan 125 ] coldThrottlingThreshold: [nan nan nan nan nan nan nan ] vrThrottlingThreshold: nan
+ Type: CPU Name: cpu-0-2-usr hotThrottlingThreshold: [nan nan nan 95 nan nan 125 ] coldThrottlingThreshold: [nan nan nan nan nan nan nan ] vrThrottlingThreshold: nan
+getCurrentCoolingDevices:
+ Type: GPU Name: thermal-devfreq-0 CurrentValue: 0
+ Type: BATTERY Name: fcc CurrentValue: 0
+ Type: CPU Name: thermal-cpufreq-7 CurrentValue: 0
+ Type: CPU Name: thermal-cpufreq-6 CurrentValue: 0
+ Type: CPU Name: thermal-cpufreq-0 CurrentValue: 0
+Callbacks: Total 2
+ IsFilter: 1 Type: UNKNOWN
+ IsFilter: 0 Type: CPU
+getHysteresis:
+ Name: sdm-therm hotHysteresis: [0 0 0 0 0 0 0 ] coldHysteresis: [0 0 0 0 0 0 0 ]
+ Name: panel-audio-therm hotHysteresis: [0 1.9 0 0 0 0 0 ] coldHysteresis: [0 0 0 0 0 0 0 ]
+ Name: usbc-virt-monitor hotHysteresis: [0 0 0 0 0 5 0 ] coldHysteresis: [0 0 0 0 0 0 0 ]
+ Name: cellular-emergency hotHysteresis: [0 0 0 0 0 1.9 0 ] coldHysteresis: [0 0 0 0 0 0 0 ]
+ Name: battery hotHysteresis: [0 0 0 0 0 0 0 ] coldHysteresis: [0 0 0 0 0 0 0 ]
+ Name: gpuss-0-usr hotHysteresis: [0 0 0 0 0 0 0 ] coldHysteresis: [0 0 0 0 0 0 0 ]
+ Name: cpu-1-3-usr hotHysteresis: [0 0 0 0 0 0 0 ] coldHysteresis: [0 0 0 0 0 0 0 ]
+ Name: cpu-1-2-usr hotHysteresis: [0 0 0 0 0 0 0 ] coldHysteresis: [0 0 0 0 0 0 0 ]
+ Name: cpu-1-0-usr hotHysteresis: [0 0 0 0 0 0 0 ] coldHysteresis: [0 0 0 0 0 0 0 ]
+ Name: gpuss-1-usr hotHysteresis: [0 0 0 0 0 0 0 ] coldHysteresis: [0 0 0 0 0 0 0 ]
+ Name: cpu-0-5-usr hotHysteresis: [0 0 0 0 0 0 0 ] coldHysteresis: [0 0 0 0 0 0 0 ]
+ Name: cpu-0-0-usr hotHysteresis: [0 0 0 0 0 0 0 ] coldHysteresis: [0 0 0 0 0 0 0 ]
+ Name: cpu-0-4-usr hotHysteresis: [0 0 0 0 0 0 0 ] coldHysteresis: [0 0 0 0 0 0 0 ]
+ Name: skin-therm-monitor hotHysteresis: [0 1.9 1.9 1.9 1.9 1.9 1.9 ] coldHysteresis: [0 0 0 0 0 0 0 ]
+ Name: cpu-1-1-usr hotHysteresis: [0 0 0 0 0 0 0 ] coldHysteresis: [0 0 0 0 0 0 0 ]
+ Name: cpu-0-1-usr hotHysteresis: [0 0 0 0 0 0 0 ] coldHysteresis: [0 0 0 0 0 0 0 ]
+ Name: cpu-0-3-usr hotHysteresis: [0 0 0 0 0 0 0 ] coldHysteresis: [0 0 0 0 0 0 0 ]
+ Name: cpu-0-2-usr hotHysteresis: [0 0 0 0 0 0 0 ] coldHysteresis: [0 0 0 0 0 0 0 ]
+SendCallback
+  Enabled List: panel-audio-therm usbc-virt-monitor cellular-emergency skin-therm-monitor 
+SendPowerHint
+  Enabled List: skin-therm-monitor 
+VirtualSensorInfo:
+Throttling Info:
+Throttling Request Status 
+Power Rail Info 
+AIDL Power Hal exist: true
+AIDL Power Hal connected: true
+AIDL Power Hal Ext connected: true

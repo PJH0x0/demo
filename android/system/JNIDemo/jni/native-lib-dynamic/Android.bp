@@ -1,0 +1,17 @@
+cc_library_shared {
+    name : "libnative_dynamic_jni",
+    srcs: ["src/*.cpp"],
+    cflags: [
+        "-Wall",
+        "-Wextra",
+        "-Wno-unused-parameter",
+        "-Werror",
+    ],
+    shared_libs: [
+        "libnativehelper",
+        "libcutils",
+        "libutils",
+        "liblog",
+        "libbase",
+    ],
+}

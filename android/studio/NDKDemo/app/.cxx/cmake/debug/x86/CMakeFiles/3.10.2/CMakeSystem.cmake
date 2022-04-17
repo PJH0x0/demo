@@ -1,9 +1,9 @@
-set(CMAKE_HOST_SYSTEM "Linux-5.4.0-84-generic")
-set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "5.4.0-84-generic")
+set(CMAKE_HOST_SYSTEM "Darwin-21.4.0")
+set(CMAKE_HOST_SYSTEM_NAME "Darwin")
+set(CMAKE_HOST_SYSTEM_VERSION "21.4.0")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/home/mi/android-studio/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake")
+include("/Users/illusion/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake")
 
 set(CMAKE_SYSTEM "Android-1")
 set(CMAKE_SYSTEM_NAME "Android")

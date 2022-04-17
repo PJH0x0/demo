@@ -2,439 +2,439 @@
   {
     "level": "INFO",
     "message": "Start JSON generation. Platform version: 24 min SDK version: armeabi-v7a",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "No CMake version was specified in build.gradle. Using default version 3.10.2.",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "Trying to locate CMake in local SDK repository.",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "- CMake found in SDK at \u0027/home/mi/android-studio/sdk/cmake/3.10.2.4988404\u0027 had version \u00273.10.2\u0027",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "message": "- CMake found in SDK at \u0027/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404\u0027 had version \u00273.10.2\u0027",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "CMake \u00273.18.1\u0027 found in SDK did not match requested version \u00273.10.2\u0027.",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "rebuilding JSON /home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/release/armeabi-v7a/android_gradle_build.json due to:",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "message": "rebuilding JSON /Users/illusion/github/demo/android/studio/NDKDemo/app/.cxx/cmake/release/armeabi-v7a/android_gradle_build.json due to:",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "- command changed from previous, will remove stale json folder",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "- a dependent build file changed",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "  - /Users/illusion/github/demo/android/NDKDemo/app/CMakeLists.txt",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "message": "  - /home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "  - /Users/illusion/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "message": "  - /home/mi/android-studio/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "  - /Users/illusion/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "message": "  - /home/mi/android-studio/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "removing stale contents from \u0027/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/release/armeabi-v7a\u0027",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "message": "removing stale contents from \u0027/Users/illusion/github/demo/android/studio/NDKDemo/app/.cxx/cmake/release/armeabi-v7a\u0027",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "created folder \u0027/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/release/armeabi-v7a\u0027",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "message": "created folder \u0027/Users/illusion/github/demo/android/studio/NDKDemo/app/.cxx/cmake/release/armeabi-v7a\u0027",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "executing cmake Executable : /home/mi/android-studio/sdk/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/home/mi/github/demo/android/NDKDemo/app\n-DCMAKE_CXX_FLAGS\u003d-frtti -fexceptions\n-DCMAKE_FIND_ROOT_PATH\u003d/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/release/prefab/armeabi-v7a/prefab\n-DCMAKE_BUILD_TYPE\u003dRelease\n-DCMAKE_TOOLCHAIN_FILE\u003d/home/mi/android-studio/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake\n-DANDROID_ABI\u003darmeabi-v7a\n-DANDROID_NDK\u003d/home/mi/android-studio/sdk/ndk/21.1.6352462\n-DANDROID_PLATFORM\u003dandroid-24\n-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a\n-DCMAKE_ANDROID_NDK\u003d/home/mi/android-studio/sdk/ndk/21.1.6352462\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/mi/github/demo/android/NDKDemo/app/build/intermediates/cmake/release/obj/armeabi-v7a\n-DCMAKE_MAKE_PROGRAM\u003d/home/mi/android-studio/sdk/cmake/3.10.2.4988404/bin/ninja\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d24\n-B/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/release/armeabi-v7a\n-GNinja\njvmArgs : \n\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "message": "executing cmake Executable : /Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/Users/illusion/github/demo/android/studio/NDKDemo/app\n-DCMAKE_CXX_FLAGS\u003d-frtti -fexceptions\n-DCMAKE_FIND_ROOT_PATH\u003d/Users/illusion/github/demo/android/studio/NDKDemo/app/.cxx/cmake/release/prefab/armeabi-v7a/prefab\n-DCMAKE_BUILD_TYPE\u003dRelease\n-DCMAKE_TOOLCHAIN_FILE\u003d/Users/illusion/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake\n-DANDROID_ABI\u003darmeabi-v7a\n-DANDROID_NDK\u003d/Users/illusion/Library/Android/sdk/ndk/21.1.6352462\n-DANDROID_PLATFORM\u003dandroid-24\n-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a\n-DCMAKE_ANDROID_NDK\u003d/Users/illusion/Library/Android/sdk/ndk/21.1.6352462\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/illusion/github/demo/android/studio/NDKDemo/app/build/intermediates/cmake/release/obj/armeabi-v7a\n-DCMAKE_MAKE_PROGRAM\u003d/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_SYSTEM_VERSION\u003d24\n-B/Users/illusion/github/demo/android/studio/NDKDemo/app/.cxx/cmake/release/armeabi-v7a\n-GNinja\njvmArgs : \n\n",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "[\u003d\u003d \"CMake Server\" \u003d\u003d[\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "{\"supportedProtocolVersions\":[{\"isExperimental\":true,\"major\":1,\"minor\":1}],\"type\":\"hello\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "]\u003d\u003d \"CMake Server\" \u003d\u003d]\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "{\n  \"type\": \"handshake\",\n  \"cookie\": \"gradle-cmake-cookie\",\n  \"protocolVersion\": {\n    \"isExperimental\": true,\n    \"major\": 1,\n    \"minor\": 1\n  },\n  \"sourceDirectory\": \"/home/mi/github/demo/android/NDKDemo/app\",\n  \"buildDirectory\": \"/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/release/armeabi-v7a\",\n  \"generator\": \"Ninja\"\n}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "message": "{\n  \"type\": \"handshake\",\n  \"cookie\": \"gradle-cmake-cookie\",\n  \"protocolVersion\": {\n    \"isExperimental\": true,\n    \"major\": 1,\n    \"minor\": 1\n  },\n  \"sourceDirectory\": \"/Users/illusion/github/demo/android/studio/NDKDemo/app\",\n  \"buildDirectory\": \"/Users/illusion/github/demo/android/studio/NDKDemo/app/.cxx/cmake/release/armeabi-v7a\",\n  \"generator\": \"Ninja\"\n}\n",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "{\"cookie\":\"gradle-cmake-cookie\",\"inReplyTo\":\"handshake\",\"type\":\"reply\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_CXX_FLAGS\\u003d-frtti -fexceptions\",\n    \"-DCMAKE_FIND_ROOT_PATH\\u003d/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/release/prefab/armeabi-v7a/prefab\",\n    \"-DCMAKE_BUILD_TYPE\\u003dRelease\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003d/home/mi/android-studio/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake\",\n    \"-DANDROID_ABI\\u003darmeabi-v7a\",\n    \"-DANDROID_NDK\\u003d/home/mi/android-studio/sdk/ndk/21.1.6352462\",\n    \"-DANDROID_PLATFORM\\u003dandroid-24\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003darmeabi-v7a\",\n    \"-DCMAKE_ANDROID_NDK\\u003d/home/mi/android-studio/sdk/ndk/21.1.6352462\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003d/home/mi/github/demo/android/NDKDemo/app/build/intermediates/cmake/release/obj/armeabi-v7a\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003d/home/mi/android-studio/sdk/cmake/3.10.2.4988404/bin/ninja\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d24\"\n  ]\n}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "message": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_CXX_FLAGS\\u003d-frtti -fexceptions\",\n    \"-DCMAKE_FIND_ROOT_PATH\\u003d/Users/illusion/github/demo/android/studio/NDKDemo/app/.cxx/cmake/release/prefab/armeabi-v7a/prefab\",\n    \"-DCMAKE_BUILD_TYPE\\u003dRelease\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003d/Users/illusion/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake\",\n    \"-DANDROID_ABI\\u003darmeabi-v7a\",\n    \"-DANDROID_NDK\\u003d/Users/illusion/Library/Android/sdk/ndk/21.1.6352462\",\n    \"-DANDROID_PLATFORM\\u003dandroid-24\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003darmeabi-v7a\",\n    \"-DCMAKE_ANDROID_NDK\\u003d/Users/illusion/Library/Android/sdk/ndk/21.1.6352462\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003d/Users/illusion/github/demo/android/studio/NDKDemo/app/build/intermediates/cmake/release/obj/armeabi-v7a\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003d/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d24\"\n  ]\n}\n",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /home/mi/android-studio/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang\",\"type\":\"message\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /Users/illusion/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang\",\"type\":\"message\"}\n",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "Check for working C compiler: /home/mi/android-studio/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "message": "Check for working C compiler: /Users/illusion/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":33,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /home/mi/android-studio/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works\",\"type\":\"message\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /Users/illusion/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works\",\"type\":\"message\"}\n",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "Check for working C compiler: /home/mi/android-studio/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "message": "Check for working C compiler: /Users/illusion/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info\",\"type\":\"message\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "Detecting C compiler ABI info",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":65,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info - done\",\"type\":\"message\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "Detecting C compiler ABI info - done",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features\",\"type\":\"message\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "Detecting C compile features",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":96,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":126,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":155,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features - done\",\"type\":\"message\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "Detecting C compile features - done",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /home/mi/android-studio/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++\",\"type\":\"message\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /Users/illusion/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++\",\"type\":\"message\"}\n",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "Check for working CXX compiler: /home/mi/android-studio/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "message": "Check for working CXX compiler: /Users/illusion/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":184,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /home/mi/android-studio/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works\",\"type\":\"message\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /Users/illusion/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works\",\"type\":\"message\"}\n",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "Check for working CXX compiler: /home/mi/android-studio/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "message": "Check for working CXX compiler: /Users/illusion/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info\",\"type\":\"message\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "Detecting CXX compiler ABI info",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":211,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info - done\",\"type\":\"message\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "Detecting CXX compiler ABI info - done",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features\",\"type\":\"message\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "Detecting CXX compile features",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":237,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":262,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":287,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":311,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features - done\",\"type\":\"message\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "Detecting CXX compile features - done",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Configuring done\",\"type\":\"message\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "Configuring done",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"type\":\"reply\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "{\"type\":\"compute\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"message\":\"Generating done\",\"type\":\"message\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "Generating done",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"type\":\"reply\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "{\"type\":\"cmakeInputs\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "{\"buildFiles\":[{\"isCMake\":true,\"isTemporary\":false,\"sources\":[\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\"]},{\"isCMake\":false,\"isTemporary\":false,\"sources\":[\"CMakeLists.txt\",\"/home/mi/android-studio/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake\",\"/home/mi/android-studio/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake\",\"/home/mi/android-studio/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake\"]},{\"isCMake\":false,\"isTemporary\":true,\"sources\":[\".cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake\",\".cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\".cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\",\".cxx/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.c\",\".cxx/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.c\",\".cxx/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.c\",\".cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\".cxx/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\"]}],\"cmakeRootDirectory\":\"/home/mi/android-studio/sdk/cmake/3.10.2.4988404/share/cmake-3.10\",\"cookie\":\"\",\"inReplyTo\":\"cmakeInputs\",\"sourceDirectory\":\"/home/mi/github/demo/android/NDKDemo/app\",\"type\":\"reply\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "message": "{\"buildFiles\":[{\"isCMake\":true,\"isTemporary\":false,\"sources\":[\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\"]},{\"isCMake\":false,\"isTemporary\":false,\"sources\":[\"CMakeLists.txt\",\"/Users/illusion/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake\",\"/Users/illusion/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake\",\"/Users/illusion/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake\"]},{\"isCMake\":false,\"isTemporary\":true,\"sources\":[\".cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake\",\".cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\".cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\",\".cxx/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.c\",\".cxx/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.c\",\".cxx/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.c\",\".cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\".cxx/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.cxx\",\".cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\"]}],\"cmakeRootDirectory\":\"/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10\",\"cookie\":\"\",\"inReplyTo\":\"cmakeInputs\",\"sourceDirectory\":\"/Users/illusion/github/demo/android/studio/NDKDemo/app\",\"type\":\"reply\"}\n",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "{\"type\":\"codemodel\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "{\"configurations\":[{\"name\":\"Release\",\"projects\":[{\"buildDirectory\":\"/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/release/armeabi-v7a\",\"name\":\"Project\",\"sourceDirectory\":\"/home/mi/github/demo/android/NDKDemo/app\",\"targets\":[{\"artifacts\":[\"/home/mi/github/demo/android/NDKDemo/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so\"],\"buildDirectory\":\"/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/release/armeabi-v7a\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -march\u003darmv7-a -mthumb -Wformat -Werror\u003dformat-security  -frtti -fexceptions -Oz -DNDEBUG  -fPIC  \",\"defines\":[\"native_lib_EXPORTS\"],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"src/main/cpp/native-lib.cpp\"]}],\"fullName\":\"libnative-lib.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments\",\"linkLibraries\":\"/home/mi/android-studio/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/liblog.so -latomic -lm\",\"linkerLanguage\":\"CXX\",\"name\":\"native-lib\",\"sourceDirectory\":\"/home/mi/github/demo/android/NDKDemo/app\",\"sysroot\":\"/home/mi/android-studio/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"},{\"artifacts\":[\"/home/mi/github/demo/android/NDKDemo/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-dynamic-lib.so\"],\"buildDirectory\":\"/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/release/armeabi-v7a\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -march\u003darmv7-a -mthumb -Wformat -Werror\u003dformat-security  -frtti -fexceptions -Oz -DNDEBUG  -fPIC  \",\"defines\":[\"native_dynamic_lib_EXPORTS\"],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"src/main/cpp/native-dynamic-lib.cpp\"]}],\"fullName\":\"libnative-dynamic-lib.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments\",\"linkLibraries\":\"/home/mi/android-studio/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/liblog.so -latomic -lm\",\"linkerLanguage\":\"CXX\",\"name\":\"native-dynamic-lib\",\"sourceDirectory\":\"/home/mi/github/demo/android/NDKDemo/app\",\"sysroot\":\"/home/mi/android-studio/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"}]}]}],\"cookie\":\"\",\"inReplyTo\":\"codemodel\",\"type\":\"reply\"}\n",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "message": "{\"configurations\":[{\"name\":\"Release\",\"projects\":[{\"buildDirectory\":\"/Users/illusion/github/demo/android/studio/NDKDemo/app/.cxx/cmake/release/armeabi-v7a\",\"name\":\"Project\",\"sourceDirectory\":\"/Users/illusion/github/demo/android/studio/NDKDemo/app\",\"targets\":[{\"artifacts\":[\"/Users/illusion/github/demo/android/studio/NDKDemo/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-dynamic-lib.so\"],\"buildDirectory\":\"/Users/illusion/github/demo/android/studio/NDKDemo/app/.cxx/cmake/release/armeabi-v7a\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -march\u003darmv7-a -mthumb -Wformat -Werror\u003dformat-security  -frtti -fexceptions -Oz -DNDEBUG  -fPIC  \",\"defines\":[\"native_dynamic_lib_EXPORTS\"],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"src/main/cpp/native-dynamic-lib.cpp\"]}],\"fullName\":\"libnative-dynamic-lib.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments\",\"linkLibraries\":\"-llog -latomic -lm\",\"linkerLanguage\":\"CXX\",\"name\":\"native-dynamic-lib\",\"sourceDirectory\":\"/Users/illusion/github/demo/android/studio/NDKDemo/app\",\"sysroot\":\"/Users/illusion/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"},{\"artifacts\":[\"/Users/illusion/github/demo/android/studio/NDKDemo/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so\"],\"buildDirectory\":\"/Users/illusion/github/demo/android/studio/NDKDemo/app/.cxx/cmake/release/armeabi-v7a\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -march\u003darmv7-a -mthumb -Wformat -Werror\u003dformat-security  -frtti -fexceptions -Oz -DNDEBUG  -fPIC  \",\"defines\":[\"native_lib_EXPORTS\"],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"src/main/cpp/native-lib.cpp\"]}],\"fullName\":\"libnative-lib.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments\",\"linkLibraries\":\"-llog -latomic -lm\",\"linkerLanguage\":\"CXX\",\"name\":\"native-lib\",\"sourceDirectory\":\"/Users/illusion/github/demo/android/studio/NDKDemo/app\",\"sysroot\":\"/Users/illusion/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"}]}]}],\"cookie\":\"\",\"inReplyTo\":\"codemodel\",\"type\":\"reply\"}\n",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "done executing cmake",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "write build output /home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/release/armeabi-v7a/build_output.txt",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "message": "write build output /Users/illusion/github/demo/android/studio/NDKDemo/app/.cxx/cmake/release/armeabi-v7a/build_output.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
-    "message": "write command file /home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/release/armeabi-v7a/build_command.txt",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "message": "write command file /Users/illusion/github/demo/android/studio/NDKDemo/app/.cxx/cmake/release/armeabi-v7a/build_command.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "JSON generation completed without problems",
-    "file": "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
+    "file": "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
     "tag": "release|armeabi-v7a"
   }
 ]

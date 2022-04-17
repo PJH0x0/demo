@@ -1,0 +1,14 @@
+===HalProxy===
+Internal values:
+  Threads are running: true
+  Wakelock timeout start time: 92372 ms ago
+  Wakelock timeout reset time: 80710 ms ago
+  Wakelock ref count: 0
+  # of events on pending write writes queue: 0
+ Most events seen on pending write events queue: 0
+  # of non-dynamic sensors across all subhals: 34
+  # of dynamic sensors across all subhals: 0
+SubHals (1):
+  Name: QTI-SubHAL
+  Debug dump: 
+

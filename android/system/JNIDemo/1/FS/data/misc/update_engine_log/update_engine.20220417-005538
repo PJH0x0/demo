@@ -1,0 +1,43 @@
+[0417/005538.229919] [INFO:main.cc(55)] A/B Update Engine starting
+[0417/005538.232710] Binder ioctl to enable oneway spam detection failed: Invalid argument
+[0417/005538.234035] Binder ioctl to enable oneway spam detection failed: Invalid argument
+[0417/005538.241302] [INFO:boot_control_android.cc(68)] Loaded boot control hidl hal.
+[0417/005538.254502] [INFO:daemon_state_android.cc(44)] Booted in dev mode.
+[0417/005538.269830] [INFO:update_attempter_android.cc(1070)] Scheduling CleanupPreviousUpdateAction.
+[0417/005538.271146] [INFO:action_processor.cc(51)] ActionProcessor: starting CleanupPreviousUpdateAction
+[0417/005538.272160] [INFO:cleanup_previous_update_action.cc(149)] Starting/resuming CleanupPreviousUpdateAction
+[0417/005538.273828] [INFO:cleanup_previous_update_action.cc(124)] CleanupPreviousUpdateAction scheduled task ID 1 for WaitBootCompleted
+[0417/005540.276116] [INFO:cleanup_previous_update_action.cc(112)] Executing task 1
+[0417/005540.277925] [INFO:cleanup_previous_update_action.cc(124)] CleanupPreviousUpdateAction scheduled task ID 3 for WaitBootCompleted
+[0417/005542.280048] [INFO:cleanup_previous_update_action.cc(112)] Executing task 3
+[0417/005542.285763] [INFO:cleanup_previous_update_action.cc(124)] CleanupPreviousUpdateAction scheduled task ID 4 for WaitBootCompleted
+[0417/005544.287952] [INFO:cleanup_previous_update_action.cc(112)] Executing task 4
+[0417/005544.289188] [INFO:cleanup_previous_update_action.cc(124)] CleanupPreviousUpdateAction scheduled task ID 5 for WaitBootCompleted
+[0417/005546.290510] [INFO:cleanup_previous_update_action.cc(112)] Executing task 5
+[0417/005546.292900] [INFO:cleanup_previous_update_action.cc(124)] CleanupPreviousUpdateAction scheduled task ID 6 for WaitBootCompleted
+[0417/005548.293988] [INFO:cleanup_previous_update_action.cc(112)] Executing task 6
+[0417/005548.295687] [INFO:cleanup_previous_update_action.cc(124)] CleanupPreviousUpdateAction scheduled task ID 7 for WaitBootCompleted
+[0417/005550.297327] [INFO:cleanup_previous_update_action.cc(112)] Executing task 7
+[0417/005550.299594] [INFO:cleanup_previous_update_action.cc(124)] CleanupPreviousUpdateAction scheduled task ID 8 for WaitBootCompleted
+[0417/005552.301841] [INFO:cleanup_previous_update_action.cc(112)] Executing task 8
+[0417/005552.303089] [INFO:cleanup_previous_update_action.cc(124)] CleanupPreviousUpdateAction scheduled task ID 9 for WaitBootCompleted
+[0417/005554.303830] [INFO:cleanup_previous_update_action.cc(112)] Executing task 9
+[0417/005554.306268] [INFO:cleanup_previous_update_action.cc(124)] CleanupPreviousUpdateAction scheduled task ID 10 for WaitBootCompleted
+[0417/005556.309692] [INFO:cleanup_previous_update_action.cc(112)] Executing task 10
+[0417/005556.311466] [INFO:cleanup_previous_update_action.cc(189)] Boot completed, waiting on markBootSuccessful()
+[0417/005556.313301] [INFO:snapshot.cpp(3343)] EnsureMetadataMounted does nothing in Android mode.
+[0417/005556.315105] [INFO:snapshot_stats.cpp(37)] Read merge statistics file failed: No such file or directory
+[0417/005556.317349] [INFO:cleanup_previous_update_action.cc(261)] Waiting for any previous merge request to complete. This can take up to several minutes.
+[0417/005556.318182] [ERROR:snapshot.cpp(2518)] Read state file failed: No such file or directory
+[0417/005556.322269] [ERROR:snapshot.cpp(2518)] Read state file failed: No such file or directory
+[0417/005556.323211] [INFO:snapshot.cpp(938)] CheckMergeState for snapshots returned: 0
+[0417/005556.325777] [INFO:snapshot.cpp(910)] ProcessUpdateState handling state: 0
+[0417/005556.326590] [INFO:cleanup_previous_update_action.cc(287)] Can't find any snapshot to merge.
+[0417/005556.327510] [ERROR:snapshot.cpp(2518)] Read state file failed: No such file or directory
+[0417/005556.328365] [INFO:cleanup_previous_update_action.cc(130)] Stopping/suspending/completing CleanupPreviousUpdateAction
+[0417/005556.330095] [INFO:cleanup_previous_update_action.cc(469)] Not reporting merge stats because state is None
+[0417/005556.331367] [INFO:cleanup_previous_update_action.cc(130)] Stopping/suspending/completing CleanupPreviousUpdateAction
+[0417/005556.333171] [INFO:action_processor.cc(116)] ActionProcessor: finished last action CleanupPreviousUpdateAction with code ErrorCode::kSuccess
+[0417/005556.334742] [INFO:update_attempter_android.cc(546)] Processing Done.
+[0417/005556.335665] [INFO:update_attempter_android.cc(694)] Terminating cleanup previous update.
+[0417/010020.449716] [INFO:main.cc(72)] A/B Update Engine terminating with exit code 0

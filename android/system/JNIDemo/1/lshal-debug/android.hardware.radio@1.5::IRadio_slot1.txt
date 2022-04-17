@@ -1,0 +1,453 @@
+========== Haldebug Begin Dump Call Control Buffer ==========
+04-17 13:45:14.916 [1237,1379] qcril_qmi_get_call_list_to_send: RILVI: calls rep: reported/skipped 0/0 calls
+04-17 13:45:16.324 [1237,1379] qcril_qmi_get_call_list_to_send: RILVI: calls rep: reported/skipped 0/0 calls
+04-17 13:45:19.403 [1237,1237] qcril_am_audio_system_error_callback: QCRIL_ERROR:AUDIO: qcril_am_audio_system_error_callback
+04-17 13:45:19.403 [1237,1406] qcril_am_convert_vsid_audio_call_state_to_string: keyValPairs: vsid=297816064;call_state=1
+04-17 13:45:19.415 [1237,1406] qcril_am_call_audio_api: AudioSystem::setParameters return status: 0
+04-17 13:45:19.415 [1237,1406] qcril_am_convert_vsid_audio_call_state_to_string: keyValPairs: vsid=297816064;call_state=1
+04-17 13:45:19.415 [1237,1406] qcril_am_convert_vsid_audio_call_state_to_string: keyValPairs: vsid=297816064;call_state=1
+04-17 13:45:19.421 [1237,1406] qcril_am_call_audio_api: AudioSystem::setParameters return status: 0
+04-17 13:45:19.421 [1237,1406] qcril_am_convert_vsid_audio_call_state_to_string: keyValPairs: vsid=297816064;call_state=1
+04-17 13:45:19.421 [1237,1406] qcril_am_convert_vsid_audio_call_state_to_string: keyValPairs: vsid=297816064;call_state=1
+04-17 13:45:19.428 [1237,1406] qcril_am_call_audio_api: AudioSystem::setParameters return status: 0
+04-17 13:45:19.428 [1237,1406] qcril_am_convert_vsid_audio_call_state_to_string: keyValPairs: vsid=297816064;call_state=1
+========== Haldebug End Dump Call Control Buffer ==========
+========== Haldebug Begin Dump Data Call Buffer ==========
+04-17 13:45:02.989 RIL[0][(1237,1609)] qcril_data_get_dds_sub_info: DSD Client unavailable
+04-17 13:45:04.510 RIL[0][(1237,1609)] qcril_data_reg_sys_ind: failed to send qmi_dsd_reg_system_status_ind, err=-18
+04-17 13:45:04.510 RIL[0][(1237,1609)] qcril_data_reg_sys_ind: qcril_data_reg_sys_ind: EXIT with ERROR
+04-17 13:45:04.533 RIL[0][(1237,1609)] qcril_data_reg_sys_ind: failed to send qmi_dsd_reg_system_status_ind, err=-18
+04-17 13:45:04.533 RIL[0][(1237,1609)] qcril_data_reg_sys_ind: qcril_data_reg_sys_ind: EXIT with ERROR
+04-17 13:45:14.381 RIL[0][(1237,1609)] qcril_data_process_qmi_dsd_ind: sys[0] network=0x0, rat=0x00000000, so_mask=0x0000000000000000
+04-17 13:45:15.845 RIL[0][(1237,1609)] qcril_data_process_qmi_dsd_ind: sys[0] network=0x0, rat=0x00000000, so_mask=0x0000000000000000
+04-17 13:45:15.863 RIL[0][(1237,1379)] qcril_data_process_qmi_dsd_ind: sys[0] network=0x0, rat=0x00000000, so_mask=0x0000000000000000
+04-17 13:46:29.894 RIL[0][(1237,1609)] qcril_data_process_qmi_dsd_ind: sys[0] network=0x0, rat=0x00000000, so_mask=0x0000000000000000
+04-17 13:46:30.950 RIL[0][(1237,1379)] qcril_data_process_qmi_dsd_ind: sys[0] network=0x0, rat=0x00000000, so_mask=0x0000000000000000
+========== Haldebug End Dump Data Call Buffer ==========
+========== Haldebug Begin Dump General Buffer ==========
+04-17 13:45:01.387 [1237,1237] qmi_ril_qmi_client_pre_initialization_acquire: entry
+04-17 13:45:01.390 [1237,1237] qmi_ril_qmi_client_pre_initialization_acquire: wake lock acquire
+04-17 13:45:01.390 [1237,1237] qmi_ril_qmi_client_pre_initialization_acquire: exit 1
+04-17 13:45:01.410 [1237,1237] qcril_qmi_vote_up_secondary_modem: Secondary modem is not present.
+04-17 13:45:01.422 [1237,1237] qcril_qmi_init_core_client_handles: Client init failed, details: QMI DMS
+04-17 13:45:01.422 [1237,1237] qmi_ril_bootup_perform_core_or_start_polling: sees 2 from qmi_ril_core_init()
+04-17 13:45:02.423 [1237,1406] qcril_qmi_vote_up_secondary_modem: Secondary modem is not present.
+04-17 13:45:02.446 [1237,1406] qcril_qmi_init_core_client_handles: Client init failed, details: QMI DMS
+04-17 13:45:03.030 [1237,1379] qcril_sms_perform_transport_layer_info_initialization: error while retrieving transport layer reg info
+04-17 13:45:03.447 [1237,1406] qcril_qmi_vote_up_secondary_modem: Secondary modem is not present.
+04-17 13:45:03.453 [1237,1406] qmi_ril_qmi_client_pre_initialization_release: entry
+04-17 13:45:03.456 [1237,1406] qmi_ril_qmi_client_pre_initialization_release: exit 0
+04-17 13:45:03.476 [1237,1406] qcril_qmi_init_core_client_handles: qcril_qmi_presence_init returned failure(-3)
+04-17 13:45:03.501 [1237,1406] qcril_qmi_init_core_client_handles: error call back registration res - 0 index - 4
+04-17 13:45:03.501 [1237,1406] qcril_qmi_init_core_client_handles: error call back registration res - 0 index - 7
+04-17 13:45:03.501 [1237,1406] qcril_qmi_init_core_client_handles: error call back registration res - 0 index - 11
+04-17 13:45:14.921 [1237,1379] qcril_qmi_sms_retrieve_ims_sms_registration_state: Failed to get the response of IMS NW registration state from qmi.
+04-17 13:45:16.329 [1237,1379] qcril_qmi_sms_retrieve_ims_sms_registration_state: Failed to get the response of IMS NW registration state from qmi.
+04-17 13:45:20.728 [1237,1379] qcril_qmi_sms_retrieve_ims_sms_registration_state: Failed to get the response of IMS NW registration state from qmi.
+========== Haldebug End Dump General Buffer ==========
+========== Haldebug Begin Dump IMS Buffer ==========
+04-17 13:45:02.992 RIL[0][(1237,1379)] qcril_qmi_imss_update_modem_version: .. qmi send sync res 0
+04-17 13:45:02.992 RIL[0][(1237,1379)] qcril_qmi_imss_update_modem_version: modem_version = 1
+04-17 13:45:20.726 [1237,1379] qcril_qmi_imsa_get_service_status_resp_hdlr: VOIP: service_status(not valid): 0, rat(not valid): 0
+04-17 13:45:20.726 [1237,1379] qcril_qmi_imsa_get_service_status_resp_hdlr: VT: service_status(not valid): 0, rat(not valid): 0
+04-17 13:45:20.726 [1237,1379] qcril_qmi_imsa_get_service_status_resp_hdlr: UT: service_status(not valid): 0, rat(not valid): 0
+04-17 13:45:20.726 [1237,1379] qcril_qmi_imsa_get_service_status_resp_hdlr: CallComposer: service_status(not valid): 0, rat(not valid): 0
+04-17 13:45:20.726 [1237,1379] qcril_qmi_imsa_get_service_status_resp_hdlr: USSD: service_status(not valid): 0, rat(not valid): 0
+04-17 13:45:20.792 RIL[0][(1237,1379)] qcril_qmi_imss_request_set_ims_config_v02: processing request - config item: QCRIL_QMI_RADIO_CONFIG_SET_CONCURRENCY_CONFIG
+04-17 13:45:20.792 RIL[0][(1237,1379)] qcril_qmi_imss_request_set_ims_config_v02: Config item received is an integer, value: 0
+========== Haldebug End Dump IMS Buffer ==========
+========== Haldebug Begin Dump NAS Buffer ==========
+04-17 13:45:00.259 [1237,1237] qcril_qmi_nas_pre_init: QCRIL_OPERATOR_NAME is persist.vendor.env.spec,  property_name is persist.vendor.env.spec. Failed to get operator name
+04-17 13:45:02.840 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: cur_status 0, card_state 9
+04-17 13:45:02.840 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 0, card_state 9
+04-17 13:45:02.840 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 1, card_state 0
+04-17 13:45:02.840 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 2, card_state 0
+04-17 13:45:02.840 RIL[0][(1237,1379)] qmi_ril_set_ecc_property: new saved ril.ecclist: 
+04-17 13:45:02.983 [1237,1379] qcril_qmi_nas_retrieve_custom_emergency_numbers_configured_value: Invalid value for properties count 0
+04-17 13:45:02.987 [1237,1379] qcril_qmi_nas_enforce_modem_stack_status: stack status property - persist.vendor.radio.stack_0
+04-17 13:45:02.987 [1237,1379] qcril_qmi_nas_enforce_modem_stack_status: stack status property value - 
+04-17 13:45:02.987 [1237,1379] qcril_qmi_nas_enforce_modem_stack_status: stack status - -1
+04-17 13:45:02.989 [1237,1379] qcril_qmi_nas_get_subscription_info: VSID 297816064
+04-17 13:45:02.989 [1237,1379] qcril_qmi_nas_get_subscription_info: LTE Voice System ID 11c05000
+04-17 13:45:02.989 [1237,1379] qcril_qmi_nas_get_subscription_info: WLAN Voice System ID 11c05000
+04-17 13:45:03.031 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: cur_status 0, card_state 9
+04-17 13:45:03.031 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 0, card_state 9
+04-17 13:45:03.031 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 1, card_state 0
+04-17 13:45:03.031 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 2, card_state 0
+04-17 13:45:03.031 RIL[0][(1237,1379)] qmi_ril_set_ecc_property: new saved ril.ecclist: 
+04-17 13:45:03.046 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: cur_status 0, card_state 9
+04-17 13:45:03.046 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 0, card_state 9
+04-17 13:45:03.046 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 1, card_state 0
+04-17 13:45:03.046 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 2, card_state 0
+04-17 13:45:03.046 RIL[0][(1237,1379)] qmi_ril_set_ecc_property: new saved ril.ecclist: 
+04-17 13:45:03.052 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: cur_status 0, card_state 9
+04-17 13:45:03.053 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 0, card_state 9
+04-17 13:45:03.053 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 1, card_state 0
+04-17 13:45:03.053 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 2, card_state 0
+04-17 13:45:03.053 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 122, shared_ptr: 0xb400007cbce8fe38
+04-17 13:45:03.053 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 120, shared_ptr: 0xb400007cbce91648
+04-17 13:45:03.053 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 119, shared_ptr: 0xb400007cbce8f968
+04-17 13:45:03.053 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 08, shared_ptr: 0xb400007cbce916f8
+04-17 13:45:03.053 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 118, shared_ptr: 0xb400007cbce91228
+04-17 13:45:03.053 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 999, shared_ptr: 0xb400007cbce90f68
+04-17 13:45:03.053 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 911, shared_ptr: 0xb400007cbce912d8
+04-17 13:45:03.053 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 000, shared_ptr: 0xb400007cbce8fc28
+04-17 13:45:03.053 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 110, shared_ptr: 0xb400007cbce8f548
+04-17 13:45:03.053 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: #911, shared_ptr: 0xb400007cbce901a8
+04-17 13:45:03.053 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 112, shared_ptr: 0xb400007cbce8f498
+04-17 13:45:03.053 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: *911, shared_ptr: 0xb400007cbce905c8
+04-17 13:45:03.054 RIL[0][(1237,1379)] qmi_ril_set_ecc_property: new saved ril.ecclist: 112,911,000,*911,999,122,120,119,118,08,#911,110
+04-17 13:45:03.501 [1237,1406] qcril_qmi_dms_set_simo_cs_ps_property: Fail to save ro.vendor.ril.svlte1x to system property
+04-17 13:45:03.501 [1237,1406] qcril_qmi_dms_set_simo_cs_ps_property: Fail to save ro.vendor.ril.svdo to system property
+04-17 13:45:04.510 [1237,1379] qcril_qmi_nas_dms_op_state_update_handler: reported op mode LPM
+04-17 13:45:04.513 [1237,1379] qcril_qmi_nas_set_nw_select_state: Invalid state..to move to DONE state
+04-17 13:45:04.533 [1237,1379] qcril_qmi_nas_dms_op_state_update_handler: reported op mode ONLINE
+04-17 13:45:04.544 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: cur_status 0, card_state 9
+04-17 13:45:04.544 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 0, card_state 9
+04-17 13:45:04.544 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 1, card_state 0
+04-17 13:45:04.544 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 2, card_state 0
+04-17 13:45:04.544 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 122, shared_ptr: 0xb400007cbce8fe38
+04-17 13:45:04.544 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 120, shared_ptr: 0xb400007cbce91648
+04-17 13:45:04.544 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 119, shared_ptr: 0xb400007cbce8f968
+04-17 13:45:04.544 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 08, shared_ptr: 0xb400007cbce916f8
+04-17 13:45:04.544 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 118, shared_ptr: 0xb400007cbce91228
+04-17 13:45:04.544 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 999, shared_ptr: 0xb400007cbce90f68
+04-17 13:45:04.544 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 911, shared_ptr: 0xb400007cbce912d8
+04-17 13:45:04.544 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 000, shared_ptr: 0xb400007cbce8fc28
+04-17 13:45:04.544 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 110, shared_ptr: 0xb400007cbce8f548
+04-17 13:45:04.544 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: #911, shared_ptr: 0xb400007cbce901a8
+04-17 13:45:04.545 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 112, shared_ptr: 0xb400007cbce8f498
+04-17 13:45:04.545 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: *911, shared_ptr: 0xb400007cbce905c8
+04-17 13:45:04.545 RIL[0][(1237,1379)] qmi_ril_set_ecc_property: new saved ril.ecclist: *911,112,911,000,999,122,08,118,120,119,110,#911
+04-17 13:45:04.553 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: cur_status 0, card_state 9
+04-17 13:45:04.553 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 0, card_state 9
+04-17 13:45:04.553 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 1, card_state 0
+04-17 13:45:04.553 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 2, card_state 0
+04-17 13:45:04.553 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 122, shared_ptr: 0xb400007cbce8fe38
+04-17 13:45:04.554 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 120, shared_ptr: 0xb400007cbce91648
+04-17 13:45:04.554 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 119, shared_ptr: 0xb400007cbce8f968
+04-17 13:45:04.554 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 08, shared_ptr: 0xb400007cbce916f8
+04-17 13:45:04.554 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 118, shared_ptr: 0xb400007cbce91228
+04-17 13:45:04.554 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 999, shared_ptr: 0xb400007cbce90f68
+04-17 13:45:04.554 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 911, shared_ptr: 0xb400007cbce912d8
+04-17 13:45:04.554 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 000, shared_ptr: 0xb400007cbce8fc28
+04-17 13:45:04.554 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 110, shared_ptr: 0xb400007cbce8f548
+04-17 13:45:04.554 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: #911, shared_ptr: 0xb400007cbce901a8
+04-17 13:45:04.554 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 112, shared_ptr: 0xb400007cbce8f498
+04-17 13:45:04.554 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: *911, shared_ptr: 0xb400007cbce905c8
+04-17 13:45:04.555 RIL[0][(1237,1379)] qmi_ril_set_ecc_property: new saved ril.ecclist: *911,112,911,000,999,122,08,118,120,119,110,#911
+04-17 13:45:13.234 [1237,1379] qcril_qmi_nas_report_restricted_details: .. reporting 18
+04-17 13:45:13.294 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: cur_status 16384, card_state 9
+04-17 13:45:13.294 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 0, card_state 9
+04-17 13:45:13.294 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 1, card_state 0
+04-17 13:45:13.294 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 2, card_state 0
+04-17 13:45:13.294 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 122, shared_ptr: 0xb400007cbce8fe38
+04-17 13:45:13.294 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 120, shared_ptr: 0xb400007cbce91648
+04-17 13:45:13.294 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 119, shared_ptr: 0xb400007cbce8f968
+04-17 13:45:13.294 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 08, shared_ptr: 0xb400007cbce916f8
+04-17 13:45:13.294 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 118, shared_ptr: 0xb400007cbce91228
+04-17 13:45:13.294 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 999, shared_ptr: 0xb400007cbce90f68
+04-17 13:45:13.294 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 911, shared_ptr: 0xb400007cbce912d8
+04-17 13:45:13.294 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 000, shared_ptr: 0xb400007cbce8fc28
+04-17 13:45:13.294 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 110, shared_ptr: 0xb400007cbce8f548
+04-17 13:45:13.294 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: #911, shared_ptr: 0xb400007cbce901a8
+04-17 13:45:13.294 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 112, shared_ptr: 0xb400007cbce8f498
+04-17 13:45:13.294 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: *911, shared_ptr: 0xb400007cbce905c8
+04-17 13:45:13.294 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 110, shared_ptr: 0xb400007cbce92568
+04-17 13:45:13.294 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 112, shared_ptr: 0xb400007cbce928d8
+04-17 13:45:13.294 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 122, shared_ptr: 0xb400007cbce91fe8
+04-17 13:45:13.294 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 999, shared_ptr: 0xb400007cbce92778
+04-17 13:45:13.294 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 120, shared_ptr: 0xb400007cbce92da8
+04-17 13:45:13.294 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 119, shared_ptr: 0xb400007cbce92618
+04-17 13:45:13.295 RIL[0][(1237,1379)] qmi_ril_set_ecc_property: new saved ril.ecclist: *911,112,911,000,999,122,08,118,120,119,110,#911
+04-17 13:45:13.296 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: cur_status 57344, card_state 9
+04-17 13:45:13.296 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 0, card_state 9
+04-17 13:45:13.296 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 1, card_state 0
+04-17 13:45:13.296 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 2, card_state 0
+04-17 13:45:13.297 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 122, shared_ptr: 0xb400007cbce8fe38
+04-17 13:45:13.297 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 120, shared_ptr: 0xb400007cbce91648
+04-17 13:45:13.297 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 119, shared_ptr: 0xb400007cbce8f968
+04-17 13:45:13.297 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 08, shared_ptr: 0xb400007cbce916f8
+04-17 13:45:13.297 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 118, shared_ptr: 0xb400007cbce91228
+04-17 13:45:13.297 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 999, shared_ptr: 0xb400007cbce90f68
+04-17 13:45:13.297 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 911, shared_ptr: 0xb400007cbce912d8
+04-17 13:45:13.297 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 000, shared_ptr: 0xb400007cbce8fc28
+04-17 13:45:13.297 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 110, shared_ptr: 0xb400007cbce8f548
+04-17 13:45:13.297 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: #911, shared_ptr: 0xb400007cbce901a8
+04-17 13:45:13.297 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 112, shared_ptr: 0xb400007cbce8f498
+04-17 13:45:13.297 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: *911, shared_ptr: 0xb400007cbce905c8
+04-17 13:45:13.297 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 110, shared_ptr: 0xb400007cbce92b98
+04-17 13:45:13.297 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 112, shared_ptr: 0xb400007cbce92c48
+04-17 13:45:13.297 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 122, shared_ptr: 0xb400007cbce92e58
+04-17 13:45:13.297 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 999, shared_ptr: 0xb400007cbce91908
+04-17 13:45:13.297 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 120, shared_ptr: 0xb400007cbce92828
+04-17 13:45:13.297 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 119, shared_ptr: 0xb400007cbce91dd8
+04-17 13:45:13.297 RIL[0][(1237,1379)] qmi_ril_set_ecc_property: new saved ril.ecclist: *911,112,911,000,999,122,08,118,120,119,110,#911
+04-17 13:45:13.298 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: cur_status 57344, card_state 9
+04-17 13:45:13.298 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 0, card_state 9
+04-17 13:45:13.298 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 1, card_state 0
+04-17 13:45:13.298 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 2, card_state 0
+04-17 13:45:13.299 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 122, shared_ptr: 0xb400007cbce8fe38
+04-17 13:45:13.299 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 120, shared_ptr: 0xb400007cbce91648
+04-17 13:45:13.299 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 119, shared_ptr: 0xb400007cbce8f968
+04-17 13:45:13.299 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 08, shared_ptr: 0xb400007cbce916f8
+04-17 13:45:13.299 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 118, shared_ptr: 0xb400007cbce91228
+04-17 13:45:13.299 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 999, shared_ptr: 0xb400007cbce90f68
+04-17 13:45:13.299 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 911, shared_ptr: 0xb400007cbce912d8
+04-17 13:45:13.299 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 000, shared_ptr: 0xb400007cbce8fc28
+04-17 13:45:13.299 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 110, shared_ptr: 0xb400007cbce8f548
+04-17 13:45:13.299 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: #911, shared_ptr: 0xb400007cbce901a8
+04-17 13:45:13.299 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 112, shared_ptr: 0xb400007cbce8f498
+04-17 13:45:13.299 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: *911, shared_ptr: 0xb400007cbce905c8
+04-17 13:45:13.299 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 110, shared_ptr: 0xb400007cbce92408
+04-17 13:45:13.299 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 112, shared_ptr: 0xb400007cbce942f8
+04-17 13:45:13.299 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 122, shared_ptr: 0xb400007cbce94ea8
+04-17 13:45:13.299 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 999, shared_ptr: 0xb400007cbce95008
+04-17 13:45:13.299 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 120, shared_ptr: 0xb400007cbce949d8
+04-17 13:45:13.299 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 119, shared_ptr: 0xb400007cbce93cc8
+04-17 13:45:13.299 RIL[0][(1237,1379)] qmi_ril_set_ecc_property: new saved ril.ecclist: *911,112,911,000,999,122,08,118,120,119,110,#911
+04-17 13:45:13.303 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: cur_status 57344, card_state 9
+04-17 13:45:13.303 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 0, card_state 9
+04-17 13:45:13.303 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 1, card_state 0
+04-17 13:45:13.303 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 2, card_state 0
+04-17 13:45:13.303 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 122, shared_ptr: 0xb400007cbce8fe38
+04-17 13:45:13.304 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 120, shared_ptr: 0xb400007cbce91648
+04-17 13:45:13.304 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 119, shared_ptr: 0xb400007cbce8f968
+04-17 13:45:13.304 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 08, shared_ptr: 0xb400007cbce916f8
+04-17 13:45:13.304 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 118, shared_ptr: 0xb400007cbce91228
+04-17 13:45:13.304 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 999, shared_ptr: 0xb400007cbce90f68
+04-17 13:45:13.304 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 911, shared_ptr: 0xb400007cbce912d8
+04-17 13:45:13.304 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 000, shared_ptr: 0xb400007cbce8fc28
+04-17 13:45:13.304 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 110, shared_ptr: 0xb400007cbce8f548
+04-17 13:45:13.304 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: #911, shared_ptr: 0xb400007cbce901a8
+04-17 13:45:13.304 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 112, shared_ptr: 0xb400007cbce8f498
+04-17 13:45:13.304 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: *911, shared_ptr: 0xb400007cbce905c8
+04-17 13:45:13.304 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 110, shared_ptr: 0xb400007cbce95dc8
+04-17 13:45:13.304 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 112, shared_ptr: 0xb400007cbce94d48
+04-17 13:45:13.304 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 122, shared_ptr: 0xb400007cbce950b8
+04-17 13:45:13.304 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 999, shared_ptr: 0xb400007cbce94198
+04-17 13:45:13.304 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 120, shared_ptr: 0xb400007cbce959a8
+04-17 13:45:13.304 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 119, shared_ptr: 0xb400007cbce954d8
+04-17 13:45:13.305 RIL[0][(1237,1379)] qmi_ril_set_ecc_property: new saved ril.ecclist: *911,112,911,000,999,122,08,118,120,119,110,#911
+04-17 13:45:14.335 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 122, shared_ptr: 0xb400007cbce8fe38
+04-17 13:45:14.335 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 120, shared_ptr: 0xb400007cbce91648
+04-17 13:45:14.335 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 119, shared_ptr: 0xb400007cbce8f968
+04-17 13:45:14.335 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 08, shared_ptr: 0xb400007cbce916f8
+04-17 13:45:14.335 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 118, shared_ptr: 0xb400007cbce91228
+04-17 13:45:14.335 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 999, shared_ptr: 0xb400007cbce90f68
+04-17 13:45:14.335 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 911, shared_ptr: 0xb400007cbce912d8
+04-17 13:45:14.335 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 000, shared_ptr: 0xb400007cbce8fc28
+04-17 13:45:14.335 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 110, shared_ptr: 0xb400007cbce8f548
+04-17 13:45:14.336 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: #911, shared_ptr: 0xb400007cbce901a8
+04-17 13:45:14.336 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 112, shared_ptr: 0xb400007cbce8f498
+04-17 13:45:14.336 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: *911, shared_ptr: 0xb400007cbce905c8
+04-17 13:45:14.336 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 110, shared_ptr: 0xb400007cbce95dc8
+04-17 13:45:14.336 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 112, shared_ptr: 0xb400007cbce94d48
+04-17 13:45:14.336 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 122, shared_ptr: 0xb400007cbce950b8
+04-17 13:45:14.336 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 999, shared_ptr: 0xb400007cbce94198
+04-17 13:45:14.336 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 120, shared_ptr: 0xb400007cbce959a8
+04-17 13:45:14.336 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 119, shared_ptr: 0xb400007cbce954d8
+04-17 13:45:14.337 RIL[0][(1237,1379)] qmi_ril_set_ecc_property: new saved ril.ecclist: *911,112,911,000,999,122,08,118,120,119,110,#911
+04-17 13:45:14.418 [1237,1379] qcril_qmi_nas_report_restricted_details: .. reporting 2
+04-17 13:45:15.801 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 122, shared_ptr: 0xb400007cbce8fe38
+04-17 13:45:15.801 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 120, shared_ptr: 0xb400007cbce91648
+04-17 13:45:15.801 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 119, shared_ptr: 0xb400007cbce8f968
+04-17 13:45:15.801 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 08, shared_ptr: 0xb400007cbce916f8
+04-17 13:45:15.801 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 118, shared_ptr: 0xb400007cbce91228
+04-17 13:45:15.801 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 999, shared_ptr: 0xb400007cbce90f68
+04-17 13:45:15.801 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 911, shared_ptr: 0xb400007cbce912d8
+04-17 13:45:15.801 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 000, shared_ptr: 0xb400007cbce8fc28
+04-17 13:45:15.802 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 110, shared_ptr: 0xb400007cbce8f548
+04-17 13:45:15.802 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: #911, shared_ptr: 0xb400007cbce901a8
+04-17 13:45:15.802 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 112, shared_ptr: 0xb400007cbce8f498
+04-17 13:45:15.802 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: *911, shared_ptr: 0xb400007cbce905c8
+04-17 13:45:15.802 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 110, shared_ptr: 0xb400007cbce95dc8
+04-17 13:45:15.802 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 112, shared_ptr: 0xb400007cbce94d48
+04-17 13:45:15.802 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 122, shared_ptr: 0xb400007cbce950b8
+04-17 13:45:15.802 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 999, shared_ptr: 0xb400007cbce94198
+04-17 13:45:15.802 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 120, shared_ptr: 0xb400007cbce959a8
+04-17 13:45:15.802 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 119, shared_ptr: 0xb400007cbce954d8
+04-17 13:45:15.803 RIL[0][(1237,1379)] qmi_ril_set_ecc_property: new saved ril.ecclist: *911,112,911,000,999,122,08,118,120,119,110,#911
+04-17 13:45:15.844 [1237,1379] qcril_qmi_nas_dms_op_state_update_handler: reported op mode LPM
+04-17 13:45:15.845 [1237,1379] qcril_qmi_nas_dms_op_state_update_handler: expected op mode LPM
+04-17 13:45:15.847 [1237,1379] qcril_qmi_nas_set_nw_select_state: Invalid state..to move to DONE state
+04-17 13:45:15.859 [1237,1379] qcril_qmi_nas_report_restricted_details: .. reporting 0
+04-17 13:45:15.865 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: cur_status 57344, card_state 9
+04-17 13:45:15.865 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 0, card_state 9
+04-17 13:45:15.865 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 1, card_state 0
+04-17 13:45:15.865 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 2, card_state 0
+04-17 13:45:15.866 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 122, shared_ptr: 0xb400007cbce8fe38
+04-17 13:45:15.866 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 120, shared_ptr: 0xb400007cbce91648
+04-17 13:45:15.866 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 119, shared_ptr: 0xb400007cbce8f968
+04-17 13:45:15.866 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 08, shared_ptr: 0xb400007cbce916f8
+04-17 13:45:15.866 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 118, shared_ptr: 0xb400007cbce91228
+04-17 13:45:15.866 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 999, shared_ptr: 0xb400007cbce90f68
+04-17 13:45:15.866 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 911, shared_ptr: 0xb400007cbce912d8
+04-17 13:45:15.866 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 000, shared_ptr: 0xb400007cbce8fc28
+04-17 13:45:15.866 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 110, shared_ptr: 0xb400007cbce8f548
+04-17 13:45:15.866 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: #911, shared_ptr: 0xb400007cbce901a8
+04-17 13:45:15.866 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 112, shared_ptr: 0xb400007cbce8f498
+04-17 13:45:15.866 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: *911, shared_ptr: 0xb400007cbce905c8
+04-17 13:45:15.866 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 110, shared_ptr: 0xb400007cbce98448
+04-17 13:45:15.866 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 112, shared_ptr: 0xb400007cbce99158
+04-17 13:45:15.866 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 122, shared_ptr: 0xb400007cbce99368
+04-17 13:45:15.866 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 999, shared_ptr: 0xb400007cbce99578
+04-17 13:45:15.866 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 120, shared_ptr: 0xb400007cbce99db8
+04-17 13:45:15.866 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 119, shared_ptr: 0xb400007cbce98c88
+04-17 13:45:15.867 RIL[0][(1237,1379)] qmi_ril_set_ecc_property: new saved ril.ecclist: *911,112,911,000,999,122,08,118,120,119,110,#911
+04-17 13:45:15.869 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: cur_status 57344, card_state 9
+04-17 13:45:15.869 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 0, card_state 9
+04-17 13:45:15.869 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 1, card_state 0
+04-17 13:45:15.869 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 2, card_state 0
+04-17 13:45:15.870 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 122, shared_ptr: 0xb400007cbce8fe38
+04-17 13:45:15.870 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 120, shared_ptr: 0xb400007cbce91648
+04-17 13:45:15.870 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 119, shared_ptr: 0xb400007cbce8f968
+04-17 13:45:15.870 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 08, shared_ptr: 0xb400007cbce916f8
+04-17 13:45:15.870 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 118, shared_ptr: 0xb400007cbce91228
+04-17 13:45:15.870 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 999, shared_ptr: 0xb400007cbce90f68
+04-17 13:45:15.870 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 911, shared_ptr: 0xb400007cbce912d8
+04-17 13:45:15.870 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 000, shared_ptr: 0xb400007cbce8fc28
+04-17 13:45:15.870 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 110, shared_ptr: 0xb400007cbce8f548
+04-17 13:45:15.870 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: #911, shared_ptr: 0xb400007cbce901a8
+04-17 13:45:15.870 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 112, shared_ptr: 0xb400007cbce8f498
+04-17 13:45:15.870 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: *911, shared_ptr: 0xb400007cbce905c8
+04-17 13:45:15.870 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 110, shared_ptr: 0xb400007cbce98bd8
+04-17 13:45:15.870 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 112, shared_ptr: 0xb400007cbce9a288
+04-17 13:45:15.870 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 122, shared_ptr: 0xb400007cbce990a8
+04-17 13:45:15.871 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 999, shared_ptr: 0xb400007cbce99418
+04-17 13:45:15.871 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 120, shared_ptr: 0xb400007cbce99a48
+04-17 13:45:15.871 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 119, shared_ptr: 0xb400007cbce99998
+04-17 13:45:15.871 RIL[0][(1237,1379)] qmi_ril_set_ecc_property: new saved ril.ecclist: *911,112,911,000,999,122,08,118,120,119,110,#911
+04-17 13:45:17.202 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 122, shared_ptr: 0xb400007cbce8fe38
+04-17 13:45:17.202 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 120, shared_ptr: 0xb400007cbce91648
+04-17 13:45:17.203 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 119, shared_ptr: 0xb400007cbce8f968
+04-17 13:45:17.203 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 08, shared_ptr: 0xb400007cbce916f8
+04-17 13:45:17.203 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 118, shared_ptr: 0xb400007cbce91228
+04-17 13:45:17.203 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 999, shared_ptr: 0xb400007cbce90f68
+04-17 13:45:17.203 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 911, shared_ptr: 0xb400007cbce912d8
+04-17 13:45:17.203 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 000, shared_ptr: 0xb400007cbce8fc28
+04-17 13:45:17.203 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 110, shared_ptr: 0xb400007cbce8f548
+04-17 13:45:17.203 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: #911, shared_ptr: 0xb400007cbce901a8
+04-17 13:45:17.203 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 112, shared_ptr: 0xb400007cbce8f498
+04-17 13:45:17.203 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: *911, shared_ptr: 0xb400007cbce905c8
+04-17 13:45:17.203 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 110, shared_ptr: 0xb400007cbce98bd8
+04-17 13:45:17.203 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 112, shared_ptr: 0xb400007cbce9a288
+04-17 13:45:17.203 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 122, shared_ptr: 0xb400007cbce990a8
+04-17 13:45:17.203 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 999, shared_ptr: 0xb400007cbce99418
+04-17 13:45:17.203 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 120, shared_ptr: 0xb400007cbce99a48
+04-17 13:45:17.203 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 119, shared_ptr: 0xb400007cbce99998
+04-17 13:45:17.204 RIL[0][(1237,1379)] qmi_ril_set_ecc_property: new saved ril.ecclist: *911,112,911,000,999,122,08,118,120,119,110,#911
+04-17 13:46:29.874 [1237,1406] qcril_qmi_nas_report_restricted_details: .. reporting 0
+04-17 13:46:29.897 [1237,1379] qcril_qmi_nas_dms_op_state_update_handler: reported op mode ONLINE
+04-17 13:46:29.897 [1237,1379] qcril_qmi_nas_dms_op_state_update_handler: expected op mode ONLINE
+04-17 13:46:29.907 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: cur_status 57344, card_state 9
+04-17 13:46:29.907 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 0, card_state 9
+04-17 13:46:29.907 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 1, card_state 0
+04-17 13:46:29.907 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 2, card_state 0
+04-17 13:46:29.907 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 122, shared_ptr: 0xb400007cbce8fe38
+04-17 13:46:29.907 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 120, shared_ptr: 0xb400007cbce91648
+04-17 13:46:29.908 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 119, shared_ptr: 0xb400007cbce8f968
+04-17 13:46:29.908 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 08, shared_ptr: 0xb400007cbce916f8
+04-17 13:46:29.908 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 118, shared_ptr: 0xb400007cbce91228
+04-17 13:46:29.908 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 999, shared_ptr: 0xb400007cbce90f68
+04-17 13:46:29.908 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 911, shared_ptr: 0xb400007cbce912d8
+04-17 13:46:29.908 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 000, shared_ptr: 0xb400007cbce8fc28
+04-17 13:46:29.910 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 110, shared_ptr: 0xb400007cbce8f548
+04-17 13:46:29.910 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: #911, shared_ptr: 0xb400007cbce901a8
+04-17 13:46:29.910 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 112, shared_ptr: 0xb400007cbce8f498
+04-17 13:46:29.911 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: *911, shared_ptr: 0xb400007cbce905c8
+04-17 13:46:29.911 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 110, shared_ptr: 0xb400007cbce94458
+04-17 13:46:29.911 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 112, shared_ptr: 0xb400007cbce9aee8
+04-17 13:46:29.911 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 122, shared_ptr: 0xb400007cbce9b468
+04-17 13:46:29.911 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 999, shared_ptr: 0xb400007cbce9bca8
+04-17 13:46:29.911 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 120, shared_ptr: 0xb400007cbce9acd8
+04-17 13:46:29.911 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 119, shared_ptr: 0xb400007cbce9c4e8
+04-17 13:46:29.912 RIL[0][(1237,1379)] qmi_ril_set_ecc_property: new saved ril.ecclist: *911,112,911,000,999,122,08,118,120,119,110,#911
+04-17 13:46:29.921 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: cur_status 57344, card_state 9
+04-17 13:46:29.921 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 0, card_state 9
+04-17 13:46:29.921 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 1, card_state 0
+04-17 13:46:29.921 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 2, card_state 0
+04-17 13:46:29.922 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 122, shared_ptr: 0xb400007cbce8fe38
+04-17 13:46:29.922 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 120, shared_ptr: 0xb400007cbce91648
+04-17 13:46:29.922 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 119, shared_ptr: 0xb400007cbce8f968
+04-17 13:46:29.922 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 08, shared_ptr: 0xb400007cbce916f8
+04-17 13:46:29.922 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 118, shared_ptr: 0xb400007cbce91228
+04-17 13:46:29.922 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 999, shared_ptr: 0xb400007cbce90f68
+04-17 13:46:29.922 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 911, shared_ptr: 0xb400007cbce912d8
+04-17 13:46:29.922 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 000, shared_ptr: 0xb400007cbce8fc28
+04-17 13:46:29.922 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 110, shared_ptr: 0xb400007cbce8f548
+04-17 13:46:29.922 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: #911, shared_ptr: 0xb400007cbce901a8
+04-17 13:46:29.922 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 112, shared_ptr: 0xb400007cbce8f498
+04-17 13:46:29.922 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: *911, shared_ptr: 0xb400007cbce905c8
+04-17 13:46:29.922 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 110, shared_ptr: 0xb400007cbce9b308
+04-17 13:46:29.923 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 112, shared_ptr: 0xb400007cbce96ef8
+04-17 13:46:29.923 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 122, shared_ptr: 0xb400007cbce97ec8
+04-17 13:46:29.923 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 999, shared_ptr: 0xb400007cbce9bb48
+04-17 13:46:29.923 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 120, shared_ptr: 0xb400007cbce9b258
+04-17 13:46:29.923 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 119, shared_ptr: 0xb400007cbce9c6f8
+04-17 13:46:29.923 RIL[0][(1237,1379)] qmi_ril_set_ecc_property: new saved ril.ecclist: *911,112,911,000,999,122,08,118,120,119,110,#911
+04-17 13:46:30.908 [1237,1379] qcril_qmi_nas_report_restricted_details: .. reporting 2
+04-17 13:46:30.946 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: cur_status 57344, card_state 9
+04-17 13:46:30.946 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 0, card_state 9
+04-17 13:46:30.946 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 1, card_state 0
+04-17 13:46:30.946 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 2, card_state 0
+04-17 13:46:30.947 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 122, shared_ptr: 0xb400007cbce8fe38
+04-17 13:46:30.947 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 120, shared_ptr: 0xb400007cbce91648
+04-17 13:46:30.947 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 119, shared_ptr: 0xb400007cbce8f968
+04-17 13:46:30.947 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 08, shared_ptr: 0xb400007cbce916f8
+04-17 13:46:30.948 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 118, shared_ptr: 0xb400007cbce91228
+04-17 13:46:30.948 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 999, shared_ptr: 0xb400007cbce90f68
+04-17 13:46:30.948 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 911, shared_ptr: 0xb400007cbce912d8
+04-17 13:46:30.948 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 000, shared_ptr: 0xb400007cbce8fc28
+04-17 13:46:30.948 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 110, shared_ptr: 0xb400007cbce8f548
+04-17 13:46:30.948 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: #911, shared_ptr: 0xb400007cbce901a8
+04-17 13:46:30.948 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 112, shared_ptr: 0xb400007cbce8f498
+04-17 13:46:30.948 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: *911, shared_ptr: 0xb400007cbce905c8
+04-17 13:46:30.948 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 110, shared_ptr: 0xb400007cbce9e5e8
+04-17 13:46:30.948 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 112, shared_ptr: 0xb400007cbce9e488
+04-17 13:46:30.948 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 122, shared_ptr: 0xb400007cbce9e068
+04-17 13:46:30.948 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 999, shared_ptr: 0xb400007cbce9cc78
+04-17 13:46:30.948 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 120, shared_ptr: 0xb400007cbce9d988
+04-17 13:46:30.948 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 119, shared_ptr: 0xb400007cbce9d8d8
+04-17 13:46:30.949 RIL[0][(1237,1379)] qmi_ril_set_ecc_property: new saved ril.ecclist: *911,112,911,000,999,122,08,118,120,119,110,#911
+04-17 13:46:30.952 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: cur_status 57344, card_state 9
+04-17 13:46:30.952 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 0, card_state 9
+04-17 13:46:30.952 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 1, card_state 0
+04-17 13:46:30.952 [1237,1379] qcril_qmi_nas_evaluate_custom_emergency_numbers_for_card: slot 2, card_state 0
+04-17 13:46:30.952 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 122, shared_ptr: 0xb400007cbce8fe38
+04-17 13:46:30.953 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 120, shared_ptr: 0xb400007cbce91648
+04-17 13:46:30.953 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 119, shared_ptr: 0xb400007cbce8f968
+04-17 13:46:30.953 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 08, shared_ptr: 0xb400007cbce916f8
+04-17 13:46:30.953 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 118, shared_ptr: 0xb400007cbce91228
+04-17 13:46:30.953 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 999, shared_ptr: 0xb400007cbce90f68
+04-17 13:46:30.953 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 911, shared_ptr: 0xb400007cbce912d8
+04-17 13:46:30.953 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 000, shared_ptr: 0xb400007cbce8fc28
+04-17 13:46:30.953 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 110, shared_ptr: 0xb400007cbce8f548
+04-17 13:46:30.953 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: #911, shared_ptr: 0xb400007cbce901a8
+04-17 13:46:30.953 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: 112, shared_ptr: 0xb400007cbce8f498
+04-17 13:46:30.953 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy pbm list to final ecc map - number: *911, shared_ptr: 0xb400007cbce905c8
+04-17 13:46:30.953 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 110, shared_ptr: 0xb400007cbce9dfb8
+04-17 13:46:30.953 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 112, shared_ptr: 0xb400007cbce9e1c8
+04-17 13:46:30.953 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 122, shared_ptr: 0xb400007cbce9e3d8
+04-17 13:46:30.953 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 999, shared_ptr: 0xb400007cbce9d1f8
+04-17 13:46:30.953 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 120, shared_ptr: 0xb400007cbce9cd28
+04-17 13:46:30.953 RIL[0][(1237,1379)] qmi_ril_send_ecc_list_indication: copy ril list to final ecc map - number: 119, shared_ptr: 0xb400007cbce9e958
+04-17 13:46:30.954 RIL[0][(1237,1379)] qmi_ril_set_ecc_property: new saved ril.ecclist: *911,112,911,000,999,122,08,118,120,119,110,#911
+04-17 13:46:30.975 [1237,1406] qcril_qmi_nas_report_restricted_details: .. reporting 2
+04-17 13:46:31.268 [1237,1587] qcril_qmi_nas_dump_cache: 
+=== Begin Nas Dump ===
+roam_status 1
+cdma_srv_status 0
+hdr_srv_status 0
+gsm_srv_status 1
+wcdma_srv_status 0
+lte_srv_status 0
+gsm_sys_info srv_domain 0
+gsm_sys_info srv_capability 3
+gsm_sys_info roam_status 1
+gsm_sys_info is_sys_forbidden 0
+gsm_sys_info network_id MCC 460 MNC 00
+=== End Nas Dump ===
+========== Haldebug End Dump NAS Buffer ==========
+========== Haldebug Begin Dump NITZ Buffer ==========
+========== Haldebug End Dump NITZ Buffer ==========

@@ -1,0 +1,121 @@
+Beginning of dump -- C2ComponentStore: qti.c2.store
+
+  Supported components:
+
+    name: c2.qti.avc.decoder
+    domain: 1
+    kind: 1
+    rank: 256
+    mediaType: video/avc
+    aliases:
+
+    name: c2.qti.avc.decoder.low_latency
+    domain: 1
+    kind: 1
+    rank: 256
+    mediaType: video/avc
+    aliases:
+
+    name: c2.qti.avc.decoder.secure
+    domain: 1
+    kind: 1
+    rank: 256
+    mediaType: video/avc
+    aliases:
+
+    name: c2.qti.hevc.decoder
+    domain: 1
+    kind: 1
+    rank: 256
+    mediaType: video/hevc
+    aliases:
+
+    name: c2.qti.hevc.decoder.low_latency
+    domain: 1
+    kind: 1
+    rank: 256
+    mediaType: video/hevc
+    aliases:
+
+    name: c2.qti.hevc.decoder.secure
+    domain: 1
+    kind: 1
+    rank: 256
+    mediaType: video/hevc
+    aliases:
+
+    name: c2.qti.vp8.decoder
+    domain: 1
+    kind: 1
+    rank: 256
+    mediaType: video/x-vnd.on2.vp8
+    aliases:
+
+    name: c2.qti.vp9.decoder
+    domain: 1
+    kind: 1
+    rank: 256
+    mediaType: video/x-vnd.on2.vp9
+    aliases:
+
+    name: c2.qti.vp9.decoder.secure
+    domain: 1
+    kind: 1
+    rank: 256
+    mediaType: video/x-vnd.on2.vp9
+    aliases:
+
+    name: c2.qti.mpeg2.decoder
+    domain: 1
+    kind: 1
+    rank: 256
+    mediaType: video/mpeg2
+    aliases:
+
+    name: c2.qti.mpeg2.decoder.secure
+    domain: 1
+    kind: 1
+    rank: 256
+    mediaType: video/mpeg2
+    aliases:
+
+    name: c2.qti.avc.encoder
+    domain: 1
+    kind: 2
+    rank: 256
+    mediaType: video/avc
+    aliases:
+
+    name: c2.qti.hevc.encoder
+    domain: 1
+    kind: 2
+    rank: 256
+    mediaType: video/hevc
+    aliases:
+
+    name: c2.qti.hevc.encoder.cq
+    domain: 1
+    kind: 2
+    rank: 256
+    mediaType: video/hevc
+    aliases:
+
+    name: c2.qti.heic.encoder
+    domain: 1
+    kind: 2
+    rank: 256
+    mediaType: image/vnd.android.heic
+    aliases:
+
+    name: c2.qti.vp8.encoder
+    domain: 1
+    kind: 2
+    rank: 256
+    mediaType: video/x-vnd.on2.vp8
+    aliases:
+
+  Active components:
+
+    NONE
+
+End of dump -- C2ComponentStore: qti.c2.store

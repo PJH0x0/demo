@@ -1,57 +1,57 @@
 {
   "stringTable": {
-    "0": "/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/debug/x86_64",
-    "1": "--target=x86_64-none-linux-android24 --gcc-toolchain=/home/mi/android-studio/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/mi/android-studio/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dnative_dynamic_lib_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -O0 -fno-limit-debug-info -fPIC",
-    "2": "--target=x86_64-none-linux-android24 --gcc-toolchain=/home/mi/android-studio/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/mi/android-studio/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dnative_lib_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -O0 -fno-limit-debug-info -fPIC"
+    "0": "/Users/illusion/github/demo/android/studio/NDKDemo/app/.cxx/cmake/debug/x86_64",
+    "1": "--target=x86_64-none-linux-android24 --gcc-toolchain=/Users/illusion/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/illusion/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_dynamic_lib_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -O0 -fno-limit-debug-info -fPIC",
+    "2": "--target=x86_64-none-linux-android24 --gcc-toolchain=/Users/illusion/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/illusion/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -O0 -fno-limit-debug-info -fPIC"
   },
   "buildFiles": [
-    "/home/mi/github/demo/android/NDKDemo/app/CMakeLists.txt",
-    "/home/mi/android-studio/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
-    "/home/mi/android-studio/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+    "/Users/illusion/github/demo/android/studio/NDKDemo/app/CMakeLists.txt",
+    "/Users/illusion/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/Users/illusion/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
   ],
   "cleanCommands": [
-    "/home/mi/android-studio/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/debug/x86_64\" clean"
+    "/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/illusion/github/demo/android/studio/NDKDemo/app/.cxx/cmake/debug/x86_64\" clean"
   ],
-  "buildTargetsCommand": "/home/mi/android-studio/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/debug/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/illusion/github/demo/android/studio/NDKDemo/app/.cxx/cmake/debug/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "native-lib-Debug-x86_64": {
-      "buildCommand": "/home/mi/android-studio/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/debug/x86_64\" native-lib",
+      "buildCommand": "/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/illusion/github/demo/android/studio/NDKDemo/app/.cxx/cmake/debug/x86_64\" native-lib",
       "buildType": "debug",
-      "toolchain": "3032571282",
+      "toolchain": "3308161008",
       "abi": "x86_64",
       "artifactName": "native-lib",
       "files": [
         {
-          "src": "/home/mi/github/demo/android/NDKDemo/app/src/main/cpp/native-lib.cpp",
+          "src": "/Users/illusion/github/demo/android/studio/NDKDemo/app/src/main/cpp/native-lib.cpp",
           "flagsOrdinal": 2,
           "workingDirectoryOrdinal": 0
         }
       ],
       "headers": [],
-      "output": "/home/mi/github/demo/android/NDKDemo/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so",
+      "output": "/Users/illusion/github/demo/android/studio/NDKDemo/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so",
       "runtimeFiles": []
     },
     "native-dynamic-lib-Debug-x86_64": {
-      "buildCommand": "/home/mi/android-studio/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/mi/github/demo/android/NDKDemo/app/.cxx/cmake/debug/x86_64\" native-dynamic-lib",
+      "buildCommand": "/Users/illusion/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/illusion/github/demo/android/studio/NDKDemo/app/.cxx/cmake/debug/x86_64\" native-dynamic-lib",
       "buildType": "debug",
-      "toolchain": "3032571282",
+      "toolchain": "3308161008",
       "abi": "x86_64",
       "artifactName": "native-dynamic-lib",
       "files": [
         {
-          "src": "/home/mi/github/demo/android/NDKDemo/app/src/main/cpp/native-dynamic-lib.cpp",
+          "src": "/Users/illusion/github/demo/android/studio/NDKDemo/app/src/main/cpp/native-dynamic-lib.cpp",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         }
       ],
       "headers": [],
-      "output": "/home/mi/github/demo/android/NDKDemo/app/build/intermediates/cmake/debug/obj/x86_64/libnative-dynamic-lib.so",
+      "output": "/Users/illusion/github/demo/android/studio/NDKDemo/app/build/intermediates/cmake/debug/obj/x86_64/libnative-dynamic-lib.so",
       "runtimeFiles": []
     }
   },
   "toolchains": {
-    "3032571282": {
-      "cppCompilerExecutable": "/home/mi/android-studio/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    "3308161008": {
+      "cppCompilerExecutable": "/Users/illusion/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
     }
   },
   "cFileExtensions": [],
