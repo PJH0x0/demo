@@ -6,6 +6,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <android/log.h>
+#include <signal.h>
+#include <string.h>
 
 #define TAG "JNITEST"
 
@@ -73,6 +75,33 @@ void call_java_instance_method(JNIEnv *env, jclass clz) {
     jobject obj_with_args = env->NewObject(clazz, args_constructor, str_arg_constructor);
 
 }
+void signal_handler(int signal, siginfo_t *info, void *uc) {
+    LOGI("catch signal = %d", signal);
+    exit(-1);
+}
+void register_signal(JNIEnv *env, jclass clz) {
+    struct sigaction sa;
+    memset(&sa, 0, sizeof(sa));
+    sigemptyset(&sa.sa_mask);
+    //sa.sa_handler = signal_handler;
+    sa.sa_sigaction = signal_handler;
+    sa.sa_flags = SA_ONSTACK | SA_SIGINFO;
+    sigaddset(&sa.sa_mask, SIGABRT);
+    sigaddset(&sa.sa_mask, SIGSEGV);
+    LOGI("signal_handler addr %p", signal_handler);
+    struct sigaction old_sa;
+    memset(&sa, 0, sizeof(sa));
+    sigaction(SIGABRT, NULL, &old_sa);
+    sigaction(SIGSEGV, NULL, &old_sa);
+    sigaction(SIGABRT, &sa, NULL);
+    sigaction(SIGSEGV, &sa, NULL);
+    LOGI("old signal_handler addr %p", old_sa.sa_handler);
+}
+
+void crash(JNIEnv *env, jclass clz) {
+    int* a = (int*) NULL;
+    *a = 0;
+}
 /**
  * 动态调用的三个要素: Java方法名, Java参数及返回类型, jni的函数名
  * 凡是返回值为某个类的,前面必须要加上L,并且后面加上;,基础类型不需要
@@ -81,7 +110,9 @@ static JNINativeMethod gMethods[] = {
         {"stringFromDynamicJni", "()Ljava/lang/String;", (void *) get_string},
         {"nativeAdd", "(II)I", (void *) add},
         {"callStaticMethodFromJni", "()V", (void *) call_java_static_method},
-        {"callInstanceMethodFromJni", "()V", (void *) call_java_instance_method}
+        {"callInstanceMethodFromJni", "()V", (void *) call_java_instance_method},
+        {"nativeRegisterSignal", "()V", (void *) register_signal},
+        {"nativeCrash", "()V", (void *) crash},
 };
 
 /*JNIEXPORT*/ jint /*JNICALL */JNI_OnLoad(JavaVM *jvm, void *reserved) {
