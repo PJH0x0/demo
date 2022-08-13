@@ -9,4 +9,6 @@ public class DynamicJniTest {
     public static native int nativeAdd(int a, int b);
     public static native void callStaticMethodFromJni();
     public static native void callInstanceMethodFromJni();
+    public static native void nativeRegisterSignal();
+    public static native void nativeCrash();
 }

@@ -24,6 +24,14 @@ public class MainActivity extends AppCompatActivity {
         tv.setText(String.valueOf(DynamicJniTest.nativeAdd(3, 5)));
         DynamicJniTest.callStaticMethodFromJni();
         DynamicJniTest.callInstanceMethodFromJni();
+
+
+        findViewById(R.id.init_btn).setOnClickListener((v)->{
+            DynamicJniTest.nativeRegisterSignal();
+        });
+        findViewById(R.id.crash_btn).setOnClickListener((v)->{
+            DynamicJniTest.nativeCrash();
+        });
     }
 
     /**
