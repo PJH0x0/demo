@@ -1,0 +1,2 @@
+rootProject.name = "JEDemo"
+include ':app'

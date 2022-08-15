@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">JavaException</string>
-    <string name="binder_leak_str">Binder泄露</string>
-    <string name="binder_overflow">Binder溢出</string>
-    <string name="uncaught_exception_child_str">子线程未捕获异常</string>
-    <string name="notification_cause_systemui_crash">通知导致SystemUI重启</string>
-</resources>
