@@ -1,4 +1,4 @@
-package com.pjh.jedemo;
+package com.example.jedemo;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.NotificationCompat;
@@ -23,7 +23,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
     Button mBinderLeak;
     Button mBinderOverflow;
-    Button mUncaughtExceptionChildThreadButton;
+    Button mChildThreadException;
     Button mNotificationSystemUICrash;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,10 +33,11 @@ public class MainActivity extends AppCompatActivity {
         mBinderLeak.setOnClickListener(this::onClick);
         mBinderOverflow = findViewById(R.id.binder_overflow);
         mBinderOverflow.setOnClickListener(this::onClick);
-        mUncaughtExceptionChildThreadButton = findViewById(R.id.uncaught_exception_child);
-        mUncaughtExceptionChildThreadButton.setOnClickListener(this::onClick);
+        mChildThreadException = findViewById(R.id.child_thread_excpetion);
+        mChildThreadException.setOnClickListener(this::onClick);
         mNotificationSystemUICrash = findViewById(R.id.notification_systemui_crash);
         mNotificationSystemUICrash.setOnClickListener(this::onClick);
+        findViewById(R.id.caught_exception).setOnClickListener(this::onClick);
     }
 
     public void onClick(View v) {
@@ -49,13 +50,15 @@ public class MainActivity extends AppCompatActivity {
             byte[] bytes = new byte[1024*1024];
             intent.putExtra("overflowtest", bytes);
             startActivity(intent);
-        } else if (id == R.id.uncaught_exception_child) {
+        } else if (id == R.id.child_thread_excpetion) {
             new Thread(()->{
                 throw new RuntimeException("子线程异常");
             }).start();
         } else if (id == R.id.notification_systemui_crash) {
             startNotification();
             Process.sendSignal(Process.myPid(), 9);
+        } else if (id == R.id.caught_exception) {
+            CrashHandler.getInstance().init();
         }
     }
 

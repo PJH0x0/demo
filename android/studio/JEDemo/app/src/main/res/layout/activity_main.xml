@@ -9,6 +9,13 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/caught_exception"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/caught_exception"/>
+
+    <Button
         android:id="@+id/binder_leak"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,10 +27,10 @@
         android:text="@string/binder_overflow" />
 
     <Button
-        android:id="@+id/uncaught_exception_child"
+        android:id="@+id/child_thread_excpetion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/uncaught_exception_child_str" />
+        android:text="@string/child_thread_excpetion" />
 
     <Button
         android:id="@+id/notification_systemui_crash"

@@ -1,4 +1,4 @@
-package com.pjh.jedemo;
+package com.example.jedemo;
 
 import android.util.Log;
 
@@ -7,7 +7,7 @@ import androidx.annotation.NonNull;
 public class CrashHandler implements Thread.UncaughtExceptionHandler{
     private CrashHandler(){}
     public void init() {
-        //Thread.setDefaultUncaughtExceptionHandler(this);
+        Thread.setDefaultUncaughtExceptionHandler(this);
         //Thread.setUncaughtExceptionPreHandler(this);
     }
     private static CrashHandler mInstance;

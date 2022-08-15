@@ -1,4 +1,4 @@
-package com.pjh.jedemo;
+package com.example.jedemo;
 
 import androidx.appcompat.app.AppCompatActivity;
 

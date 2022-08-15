@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.pjh.jedemo">
+    package="com.example.jedemo">
 
     <application
-        android:name="com.pjh.jedemo.JavaExceptionApplication"
+        android:name="com.example.jedemo.JavaExceptionApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JEDemo">
         <activity
-            android:name="com.pjh.jedemo.MainActivity"
+            android:name="com.example.jedemo.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,7 +21,7 @@
         </activity>
 
         <activity
-            android:name="com.pjh.jedemo.RemoteActivity"
+            android:name="com.example.jedemo.RemoteActivity"
             android:exported="true"
             >
             <intent-filter>
