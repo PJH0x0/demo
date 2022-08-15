@@ -76,7 +76,7 @@ void call_java_instance_method(JNIEnv *env, jclass clz) {
 
 }
 void signal_handler(int signal, siginfo_t *info, void *uc) {
-    LOGI("catch signal = %d", signal);
+    LOGI("catch signal = %d killer pid = %d", signal, info->si_pid);
     exit(-1);
 }
 void register_signal(JNIEnv *env, jclass clz) {
@@ -88,19 +88,21 @@ void register_signal(JNIEnv *env, jclass clz) {
     sa.sa_flags = SA_ONSTACK | SA_SIGINFO;
     sigaddset(&sa.sa_mask, SIGABRT);
     sigaddset(&sa.sa_mask, SIGSEGV);
+    sigaddset(&sa.sa_mask, SIGKILL);
     LOGI("signal_handler addr %p", signal_handler);
     struct sigaction old_sa;
-    memset(&sa, 0, sizeof(sa));
+    memset(&old_sa, 0, sizeof(old_sa));
     sigaction(SIGABRT, NULL, &old_sa);
     sigaction(SIGSEGV, NULL, &old_sa);
+    sigaction(SIGKILL, NULL, &old_sa);
     sigaction(SIGABRT, &sa, NULL);
     sigaction(SIGSEGV, &sa, NULL);
+    sigaction(SIGKILL, &sa, NULL);
     LOGI("old signal_handler addr %p", old_sa.sa_handler);
 }
 
 void crash(JNIEnv *env, jclass clz) {
-    int* a = (int*) NULL;
-    *a = 0;
+    abort();
 }
 /**
  * 动态调用的三个要素: Java方法名, Java参数及返回类型, jni的函数名
