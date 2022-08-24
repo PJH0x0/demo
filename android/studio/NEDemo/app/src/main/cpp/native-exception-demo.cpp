@@ -14,6 +14,8 @@
 #define TAG "JNITEST"
 
 #define LOGI(...) __android_log_print(ANDROID_LOG_INFO,TAG,__VA_ARGS__)
+#define LOGF(...) __android_log_print(ANDROID_LOG_FATAL,TAG,__VA_ARGS__)
+#define noinline __attribute__((__noinline__))
 
 jstring get_string(JNIEnv *env, jclass clz) {
     return env->NewStringUTF("Hello, here is dynamic native string");
@@ -106,6 +108,15 @@ void register_signal(JNIEnv *env, jclass clz) {
 void crash(JNIEnv *env, jclass clz) {
     abort();
 }
+noinline void null_pointer(JNIEnv *env, jclass clz) {
+    int* a = nullptr;
+    (*a)++;
+}
+
+noinline void abort_example(JNIEnv *env, jclass clz) {
+    LOGF("ne example abort test");
+    abort();
+}
 void kill_self(JNIEnv *env, jclass clz) {
     pid_t pid = getpid();
     kill(pid, SIGKILL);
@@ -122,6 +133,8 @@ static JNINativeMethod gMethods[] = {
         {"nativeRegisterSignal", "()V", (void *) register_signal},
         {"nativeKillSelf", "()V", (void *) kill_self},
         {"nativeCrash", "()V", (void *) crash},
+        {"nativeNullPointer", "()V", (void *) null_pointer},
+        {"nativeAbort", "()V", (void *) abort_example},
 };
 
 /*JNIEXPORT*/ jint /*JNICALL */JNI_OnLoad(JavaVM *jvm, void *reserved) {

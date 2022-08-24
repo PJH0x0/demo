@@ -38,5 +38,11 @@
         android:layout_height="wrap_content"
         android:text="@string/notification_cause_systemui_crash" />
 
+    <Button
+        android:id="@+id/main_thread_anr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_thread_anr" />
+
 
 </LinearLayout>

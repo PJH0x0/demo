@@ -26,10 +26,17 @@
         />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/null_pointer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="218dp" />
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/null_pointer" />
+    <Button
+        android:id="@+id/abort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/abort" />
 </LinearLayout>

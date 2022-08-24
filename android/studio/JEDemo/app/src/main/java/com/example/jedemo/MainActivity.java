@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         mNotificationSystemUICrash = findViewById(R.id.notification_systemui_crash);
         mNotificationSystemUICrash.setOnClickListener(this::onClick);
         findViewById(R.id.caught_exception).setOnClickListener(this::onClick);
+        findViewById(R.id.main_thread_anr).setOnClickListener(this::onClick);
     }
 
     public void onClick(View v) {
@@ -47,18 +48,25 @@ public class MainActivity extends AppCompatActivity {
         } else if (id == R.id.binder_overflow) {
             Intent intent = new Intent(this, RemoteActivity.class);
             //intent.setPackage("com.example.javaexception");
-            byte[] bytes = new byte[1024*1024];
+            byte[] bytes = new byte[1024*512];
             intent.putExtra("overflowtest", bytes);
             startActivity(intent);
         } else if (id == R.id.child_thread_excpetion) {
             new Thread(()->{
-                throw new RuntimeException("子线程异常");
+                String str = null;
+                str.toLowerCase();
             }).start();
         } else if (id == R.id.notification_systemui_crash) {
             startNotification();
-            Process.sendSignal(Process.myPid(), 9);
+            //Process.sendSignal(Process.myPid(), 9);
         } else if (id == R.id.caught_exception) {
             CrashHandler.getInstance().init();
+        } else if (id == R.id.main_thread_anr) {
+            try {
+                Thread.sleep(6000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
     }
 

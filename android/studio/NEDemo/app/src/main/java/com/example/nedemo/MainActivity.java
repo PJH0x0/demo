@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
         mRegisterSignal.setOnClickListener(this::onClick);
         mKillSelf = findViewById(R.id.kill_self);
         mKillSelf.setOnClickListener(this::onClick);
+        findViewById(R.id.null_pointer).setOnClickListener(this::onClick);
+        findViewById(R.id.abort).setOnClickListener(this::onClick);
     }
 
     public void onClick(View view) {
@@ -30,6 +32,10 @@ public class MainActivity extends AppCompatActivity {
             NativeExceptionFunc.nativeRegisterSignal();
         } else if (id == R.id.kill_self) {
             NativeExceptionFunc.nativeKillSelf();
+        } else if (id == R.id.null_pointer) {
+            NativeExceptionFunc.nativeNullPointer();
+        } else if (id == R.id.abort) {
+            NativeExceptionFunc.nativeAbort();
         }
     }
 

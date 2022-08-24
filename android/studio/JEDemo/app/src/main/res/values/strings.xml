@@ -5,4 +5,5 @@
     <string name="child_thread_excpetion">子线程异常</string>
     <string name="notification_cause_systemui_crash">通知导致SystemUI重启</string>
     <string name="caught_exception">捕获所有线程异常</string>
+    <string name="main_thread_anr">主线程超时ANR</string>
 </resources>
