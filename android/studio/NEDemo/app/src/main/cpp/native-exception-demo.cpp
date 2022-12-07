@@ -7,15 +7,36 @@
 #include <stdio.h>
 #include <android/log.h>
 #include <signal.h>
-#include <string.h>
 #include <sys/types.h>
 #include <unistd.h>
+#include <string>
+#include <functional>
+#include <utility>
+
 
 #define TAG "JNITEST"
 
 #define LOGI(...) __android_log_print(ANDROID_LOG_INFO,TAG,__VA_ARGS__)
+#define LOGE(...) __android_log_print(ANDROID_LOG_ERROR,TAG,__VA_ARGS__)
 #define LOGF(...) __android_log_print(ANDROID_LOG_FATAL,TAG,__VA_ARGS__)
 #define noinline __attribute__((__noinline__))
+
+class FuntionTest {
+    std::function<void(int* a, int* b)> swap_function;
+public:
+    void setFunc(std::function<void(int* a, int* b)> __swap_function) {
+        swap_function = __swap_function;
+    }
+    std::function<void(int* a, int* b)> getFunc() {
+        return  swap_function;
+    }
+    FuntionTest() {
+        LOGI("FuntionTest()");
+    }
+    ~FuntionTest() {
+        LOGI("~FuntionTest()");
+    }
+};
 
 jstring get_string(JNIEnv *env, jclass clz) {
     return env->NewStringUTF("Hello, here is dynamic native string");
@@ -24,6 +45,21 @@ jstring get_string(JNIEnv *env, jclass clz) {
 jint add(JNIEnv *env, jclass clz, jint a, jint b) {
     return a + b;
 }
+
+/*jint get_java_crash_type(JNIEnv *env, jclass clz, const char *field_name) {
+    LOGI("get java static field");
+    jclass clazz = env->FindClass("com/example/nedemo/NativeExceptionFunc$CrashType");
+    if (NULL == clazz) {
+        LOGE("NOT FOUND CrashType CLASS");
+    }
+    jfieldID id = env->GetStaticFieldID(clazz, field_name, "I");
+    if (NULL == id) {
+        LOGE("NOT FOUND id");
+    }
+    jint result = env->GetStaticIntField(clazz, id);
+    LOGI("result = %d", result);
+    return result;
+}*/
 
 void call_java_static_method(JNIEnv *env, jclass clz) {
     LOGI("call_java_static_method()");
@@ -96,17 +132,45 @@ void register_signal(JNIEnv *env, jclass clz) {
     LOGI("signal_handler addr %p", signal_handler);
     struct sigaction old_sa;
     memset(&old_sa, 0, sizeof(old_sa));
-    sigaction(SIGABRT, NULL, &old_sa);
-    sigaction(SIGSEGV, NULL, &old_sa);
-    sigaction(SIGKILL, NULL, &old_sa);
-    sigaction(SIGABRT, &sa, NULL);
-    sigaction(SIGSEGV, &sa, NULL);
-    sigaction(SIGKILL, &sa, NULL);
-    LOGI("old signal_handler addr %p", old_sa.sa_handler);
+    sigaction(SIGABRT, nullptr, &old_sa);
+    sigaction(SIGSEGV, nullptr, &old_sa);
+    sigaction(SIGABRT, &sa, nullptr);
+    sigaction(SIGSEGV, &sa, nullptr);
+    LOGI("old signal_handler addr %p", old_sa.sa_sigaction);
 }
 
-void crash(JNIEnv *env, jclass clz) {
-    abort();
+noinline void sigsegv_non_null() {
+    int* a = (int *)(&signal_handler);
+    *a = 42;
+}
+
+noinline void function_nullptr(JNIEnv* env) {
+    FuntionTest test;
+    test.setFunc([](int* a, int* b) {
+        LOGI("a = %d", *a);
+    });
+    auto func = test.getFunc();
+    int a = 2;
+    int b = 3;
+    func(&a, &b);
+    test.setFunc(nullptr);
+    if (test.getFunc()) {
+        LOGI("Function not null");
+    } else {
+        LOGI("Function is null");
+    }
+}
+
+noinline void crash(JNIEnv *env, jclass clz, jstring jstr) {
+    //abort();
+    //jint re = get_java_crash_type(env, clz, "SIGSEGV");
+    const char* crash_type = env->GetStringUTFChars(jstr, nullptr);
+    LOGI("crash_type = %s", crash_type);
+    if (!strcasecmp(crash_type, "SIGSEGV-non-null")) {
+        sigsegv_non_null();
+    } else if (!strcasecmp(crash_type, "functional-nullptr")) {
+        function_nullptr(env);
+    }
 }
 noinline void null_pointer(JNIEnv *env, jclass clz) {
     int* a = nullptr;
@@ -132,7 +196,7 @@ static JNINativeMethod gMethods[] = {
         {"callInstanceMethodFromJni", "()V", (void *) call_java_instance_method},
         {"nativeRegisterSignal", "()V", (void *) register_signal},
         {"nativeKillSelf", "()V", (void *) kill_self},
-        {"nativeCrash", "()V", (void *) crash},
+        {"nativeCrash", "(Ljava/lang/String;)V", (void *) crash},
         {"nativeNullPointer", "()V", (void *) null_pointer},
         {"nativeAbort", "()V", (void *) abort_example},
 };

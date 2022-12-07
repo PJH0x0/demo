@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
+
     // Used to load the 'native-lib' library on application startup.
     Button mRegisterSignal;
     Button mKillSelf;
@@ -24,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
         mKillSelf.setOnClickListener(this::onClick);
         findViewById(R.id.null_pointer).setOnClickListener(this::onClick);
         findViewById(R.id.abort).setOnClickListener(this::onClick);
+        findViewById(R.id.sigsegv_non_null).setOnClickListener(this::onClick);
+        findViewById(R.id.functional_nullptr).setOnClickListener(this::onClick);
     }
 
     public void onClick(View view) {
@@ -31,11 +34,15 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.register_signal) {
             NativeExceptionFunc.nativeRegisterSignal();
         } else if (id == R.id.kill_self) {
-            NativeExceptionFunc.nativeKillSelf();
+            NativeExceptionFunc.nativeCrash("exit");
         } else if (id == R.id.null_pointer) {
-            NativeExceptionFunc.nativeNullPointer();
+            NativeExceptionFunc.nativeCrash("call-null");
         } else if (id == R.id.abort) {
-            NativeExceptionFunc.nativeAbort();
+            NativeExceptionFunc.nativeCrash("abort");
+        } else if (id == R.id.sigsegv_non_null) {
+            NativeExceptionFunc.nativeCrash("SIGSEGV-non-null");
+        } else if (id == R.id.functional_nullptr) {
+            NativeExceptionFunc.nativeCrash("functional-nullptr");
         }
     }
 

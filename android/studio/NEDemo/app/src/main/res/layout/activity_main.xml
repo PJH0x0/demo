@@ -16,6 +16,16 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:text="@string/register_signal" />
+
+
+    <Button
+        android:id="@+id/sigsegv_non_null"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/sigsegv_non_null"
+        />
     <Button
         android:id="@+id/kill_self"
         android:layout_width="match_parent"
@@ -39,4 +49,11 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:text="@string/abort" />
+    <Button
+        android:id="@+id/functional_nullptr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/function_nullptr" />
 </LinearLayout>

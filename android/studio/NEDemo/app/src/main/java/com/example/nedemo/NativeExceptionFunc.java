@@ -11,7 +11,7 @@ public class NativeExceptionFunc {
     public static native void callInstanceMethodFromJni();
     public static native void nativeRegisterSignal();
     public static native void nativeKillSelf();
-    public static native void nativeCrash();
+    public static native void nativeCrash(String type);
     public static native void nativeNullPointer();
     public static native void nativeAbort();
 }

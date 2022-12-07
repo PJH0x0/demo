@@ -1,4 +1,4 @@
-package com.example.jedemo;
+package com.example.functiondemo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,6 @@ public class RemoteActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_remote2);
+        setContentView(R.layout.activity_remote);
     }
 }

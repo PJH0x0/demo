@@ -3,7 +3,9 @@
     <string name="register_signal">注册信号</string>
     <string name="smash_stack">栈读取异常</string>
     <string name="kill_self">kill自杀</string>
+    <string name="sigsegv_non_null">函数变成int指针</string>
     <string name="null_pointer_crash">空指针异常</string>
     <string name="null_pointer">空指针异常</string>
     <string name="abort">abort异常</string>
+    <string name="function_nullptr">function函数未初始化</string>
 </resources>
