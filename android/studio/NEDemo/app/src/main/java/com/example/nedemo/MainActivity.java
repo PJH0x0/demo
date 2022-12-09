@@ -7,6 +7,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatCheckBox;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     Button mRegisterSignal;
     Button mKillSelf;
     Button mNullPointer;
+    AppCompatCheckBox mCrashInNativeThreadCheckBox;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         mRegisterSignal = findViewById(R.id.register_signal);
         mRegisterSignal.setOnClickListener(this::onClick);
         findViewById(R.id.select_crash_type).setOnClickListener(this::onClick);
+        mCrashInNativeThreadCheckBox = findViewById(R.id.crash_in_native_thread);
     }
 
     public void onClick(View view) {
@@ -31,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
             NativeExceptionFunc.nativeRegisterSignal();
         } else if (id == R.id.select_crash_type) {
             Intent intent = new Intent(this, CrasherActivity.class);
+            intent.putExtra(CrasherActivity.KEY_CRASH_NATIVE_THREAD, mCrashInNativeThreadCheckBox.isChecked());
             startActivity(intent);
         }
     }

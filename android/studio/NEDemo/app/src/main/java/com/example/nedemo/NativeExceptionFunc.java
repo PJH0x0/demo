@@ -1,6 +1,7 @@
 package com.example.nedemo;
 
 import android.content.Context;
+import android.util.Log;
 
 import com.example.nedemo.recyclerview.CrashItem;
 
@@ -82,6 +83,7 @@ public class NativeExceptionFunc {
     };
     public static List<CrashItem> createCrashItems(Context context) {
         int size = sCrashType.length;
+        Log.d("PJH", "crash type size = " + size);
         List<CrashItem> crashItemList = new ArrayList<>(size);
         for (int i = 0; i < size; i++) {
             crashItemList.add(new CrashItem(context.getString(sCrashType[i]), context.getString(sCrashDesc[i])));
@@ -94,7 +96,7 @@ public class NativeExceptionFunc {
     public static native void callInstanceMethodFromJni();
     public static native void nativeRegisterSignal();
     public static native void nativeKillSelf();
-    public static native void nativeCrash(String type);
+    public static native void nativeCrash(String type, boolean crashNativeThread);
     public static native void nativeNullPointer();
     public static native void nativeAbort();
 }

@@ -17,6 +17,14 @@
         android:layout_marginRight="20dp"
         android:text="@string/register_signal" />
 
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/crash_in_native_thread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/crash_in_native_thread" />
+
     <Button
         android:id="@+id/select_crash_type"
         android:layout_width="match_parent"

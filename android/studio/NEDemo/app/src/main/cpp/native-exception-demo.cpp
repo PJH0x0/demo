@@ -12,6 +12,7 @@
 #include <string>
 #include <functional>
 #include <utility>
+#include <thread>
 
 
 #define TAG "JNITEST"
@@ -144,6 +145,8 @@ noinline void sigsegv_non_null() {
     *a = 42;
 }
 
+
+
 noinline void function_nullptr(JNIEnv* env) {
     FuntionTest test;
     test.setFunc([](int* a, int* b) {
@@ -161,17 +164,27 @@ noinline void function_nullptr(JNIEnv* env) {
     }
 }
 
-noinline void crash(JNIEnv *env, jclass clz, jstring jstr) {
+noinline void crash(JNIEnv *env, jclass clz, jstring jstr, jboolean jIsNativeThread) {
     //abort();
     //jint re = get_java_crash_type(env, clz, "SIGSEGV");
-    const char* crash_type = env->GetStringUTFChars(jstr, nullptr);
-    LOGI("crash_type = %s", crash_type);
-    if (!strcasecmp(crash_type, "SIGSEGV-non-null")) {
-        sigsegv_non_null();
-    } else if (!strcasecmp(crash_type, "functional-nullptr")) {
-        function_nullptr(env);
+    std::string crash_type(env->GetStringUTFChars(jstr, nullptr));
+    LOGI("crash_type = %s", crash_type.c_str());
+    std::function<void(const std::string&)> do_crash = [](const std::string& crash_type) {
+        if (crash_type == "SIGSEGV-non-null") {
+            sigsegv_non_null();
+        } else if (crash_type == "functional-nullptr") {
+            //function_nullptr(env);
+        }
+    };
+    if (jIsNativeThread) {
+        std::thread t(do_crash, crash_type);
+        t.join();
+    } else {
+        do_crash(crash_type);
     }
 }
+
+
 noinline void null_pointer(JNIEnv *env, jclass clz) {
     int* a = nullptr;
     (*a)++;
@@ -196,7 +209,7 @@ static JNINativeMethod gMethods[] = {
         {"callInstanceMethodFromJni", "()V", (void *) call_java_instance_method},
         {"nativeRegisterSignal", "()V", (void *) register_signal},
         {"nativeKillSelf", "()V", (void *) kill_self},
-        {"nativeCrash", "(Ljava/lang/String;)V", (void *) crash},
+        {"nativeCrash", "(Ljava/lang/String;Z)V", (void *) crash},
         {"nativeNullPointer", "()V", (void *) null_pointer},
         {"nativeAbort", "()V", (void *) abort_example},
 };

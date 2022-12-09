@@ -71,4 +71,5 @@
 
     <string name="delete">Delete</string>
     <string name="select_crash_type">选择Crash类型</string>
+    <string name="crash_in_native_thread">Native线程Crash</string>
 </resources>
