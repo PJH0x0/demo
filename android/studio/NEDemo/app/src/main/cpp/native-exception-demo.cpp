@@ -15,7 +15,7 @@
 #include <thread>
 
 
-#define TAG "JNITEST"
+#define TAG "PJH"
 
 #define LOGI(...) __android_log_print(ANDROID_LOG_INFO,TAG,__VA_ARGS__)
 #define LOGE(...) __android_log_print(ANDROID_LOG_ERROR,TAG,__VA_ARGS__)
@@ -139,13 +139,40 @@ void register_signal(JNIEnv *env, jclass clz) {
     sigaction(SIGSEGV, &sa, nullptr);
     LOGI("old signal_handler addr %p", old_sa.sa_sigaction);
 }
-
+extern "C" {
+void crashnostack(void);
 noinline void sigsegv_non_null() {
-    int* a = (int *)(&signal_handler);
+    int *a = (int *) (&signal_handler);
     *a = 42;
 }
+char *smash_stack_dummy_buf;
+noinline void smash_stack_dummy_function(volatile int *plen) {
+    smash_stack_dummy_buf[*plen] = 0;
+}
+noinline int smash_stack(volatile int *plen) {
+    LOGI("%s: deliberately corrupting stack...", getprogname());
 
+    char buf[128];
+    smash_stack_dummy_buf = buf;
+    // This should corrupt stack guards and make process abort.
+    smash_stack_dummy_function(plen);
+    return 0;
+}
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winfinite-recursion"
+
+void *global = 0; // So GCC doesn't optimize the tail recursion out of overflow_stack.
+
+noinline void overflow_stack(void *p) {
+    void *buf[1];
+    buf[0] = p;
+    global = buf;
+    overflow_stack(&buf);
+}
+
+#pragma clang diagnostic pop
+};
 
 noinline void function_nullptr(JNIEnv* env) {
     FuntionTest test;
@@ -172,7 +199,15 @@ noinline void crash(JNIEnv *env, jclass clz, jstring jstr, jboolean jIsNativeThr
     std::function<void(const std::string&)> do_crash = [](const std::string& crash_type) {
         if (crash_type == "SIGSEGV-non-null") {
             sigsegv_non_null();
-        } else if (crash_type == "functional-nullptr") {
+        } else if (crash_type == "smash-stack") {
+            volatile int len = 128;
+            smash_stack(&len);
+        } else if (crash_type == "stack-overflow") {
+            overflow_stack(nullptr);
+        } else if (crash_type == "nostack") {
+            crashnostack();
+        }
+        else if (crash_type == "functional-nullptr") {
             //function_nullptr(env);
         }
     };
