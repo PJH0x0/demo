@@ -8,11 +8,18 @@
 #include <android/log.h>
 #include <signal.h>
 #include <sys/types.h>
+#include <sys/prctl.h>
 #include <unistd.h>
 #include <string>
 #include <functional>
 #include <utility>
 #include <thread>
+#include <dirent.h>
+#include <sys/mman.h>
+#include <fcntl.h>
+#include <linux/seccomp.h>
+//#include "seccomp_policy.h"
+
 
 
 #define TAG "PJH"
@@ -21,6 +28,7 @@
 #define LOGE(...) __android_log_print(ANDROID_LOG_ERROR,TAG,__VA_ARGS__)
 #define LOGF(...) __android_log_print(ANDROID_LOG_FATAL,TAG,__VA_ARGS__)
 #define noinline __attribute__((__noinline__))
+extern "C" void android_set_abort_message(const char* msg);
 
 class FuntionTest {
     std::function<void(int* a, int* b)> swap_function;
@@ -172,6 +180,56 @@ noinline void overflow_stack(void *p) {
 }
 
 #pragma clang diagnostic pop
+noinline int crash_null() {
+    int (*null_func)() = nullptr;
+    return null_func();
+}
+noinline int crash3(int a) {
+    *reinterpret_cast<int*>(0xdead) = a;
+    return a*4;
+}
+
+noinline int crash2(int a) {
+    a = crash3(a) + 2;
+    return a*3;
+}
+noinline int crash_(int a) {
+    a = crash2(a) + 1;
+    return a*2;
+}
+noinline void maybe_abort() {
+    if (time(0) != 42) {
+        abort();
+    }
+}
+noinline void fprintf_null() {
+    fprintf(nullptr, "oops");
+}
+noinline void readdir_null() {
+    readdir(nullptr);
+}
+noinline int strlen_null() {
+    char* sneaky_null = nullptr;
+    return strlen(sneaky_null);
+}
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wfree-nonheap-object"
+
+noinline void abuse_heap() {
+    char buf[16];
+    free(buf); // GCC is smart enough to warn about this, but we're doing it deliberately.
+}
+#pragma clang diagnostic pop
+noinline void leak() {
+    while (true) {
+        void* mapping =
+                mmap(nullptr, PAGE_SIZE, PROT_READ | PROT_WRITE, MAP_PRIVATE | MAP_ANONYMOUS, -1, 0);
+        static_cast<volatile char*>(mapping)[0] = 'a';
+    }
+}
+noinline void xom() {
+
+}
 };
 
 noinline void function_nullptr(JNIEnv* env) {
@@ -206,8 +264,87 @@ noinline void crash(JNIEnv *env, jclass clz, jstring jstr, jboolean jIsNativeThr
             overflow_stack(nullptr);
         } else if (crash_type == "nostack") {
             crashnostack();
-        }
-        else if (crash_type == "functional-nullptr") {
+        } else if (crash_type == "exit") {
+            exit(1);
+        } else if (crash_type == "call-null") {
+            crash_null();
+        } else if (crash_type == "crash" || crash_type == "SIGSEGV") {
+            crash_(42);
+        } else if (crash_type == "abort") {
+            maybe_abort();
+        } else if (crash_type == "abort_with_msg") {
+            android_set_abort_message("Aborting due to crasher");
+            maybe_abort();
+        } else if (crash_type == "abort_with_null") {
+            android_set_abort_message(nullptr);
+            maybe_abort();
+        } else if (crash_type == "assert") {
+            __assert("some_file.c", 123, "false");
+        } else if (crash_type == "assert2") {
+            __assert2("some_file.c", 123, "some_function", "false");
+        } else if (crash_type == "fortify") {
+            char buf[10];
+            __read_chk(-1, buf, 32, 10);
+            while (true) pause();
+        } else if (crash_type == "fdsan_file") {
+            FILE* f = fopen("/dev/null", "r");
+            close(fileno(f));
+        } else if (crash_type == "fdsan_dir") {
+            DIR* d = opendir("/dev/");
+            close(dirfd(d));
+        } else if (crash_type == "LOG-FATAL") {
+            LOGF("LOG-FATAL");
+        } else if (crash_type == "LOG_ALWAYS_FATAL") {
+            LOGF("LOG_ALWAYS_FATAL");
+        } else if (crash_type == "LOG_ALWAYS_FATAL_IF") {
+            LOGF("LOG_ALWAYS_FATAL_IF");
+        } else if (crash_type == "SIGFPE") {
+            raise(SIGFPE);
+            //return EXIT_SUCCESS;
+        } else if (crash_type == "SIGILL") {
+#if defined(__aarch64__)
+            __asm__ volatile(".word 0\n");
+#elif defined(__arm__)
+            __asm__ volatile(".word 0xe7f0def0\n");
+#elif defined(__i386__) || defined(__x86_64__)
+      __asm__ volatile("ud2\n");
+#else
+#error
+#endif
+        } else if (crash_type == "SIGTRAP") {
+            raise(SIGTRAP);
+        } else if (crash_type == "fprintf-NULL") {
+            fprintf_null();
+        } else if (crash_type == "readdir-NULL") {
+            readdir_null();
+        } else if (crash_type == "strlen-NULL") {
+            strlen_null();
+        } else if (crash_type == "pthread_join-NULL") {
+            pthread_join(0, nullptr);
+        } else if (crash_type == "heap-usage") {
+            abuse_heap();
+        } else if (crash_type == "leak") {
+            leak();
+        } else if (crash_type == "SIGSEGV-unmapped") {
+            char* map = reinterpret_cast<char*>(
+                    mmap(nullptr, sizeof(int), PROT_READ | PROT_WRITE, MAP_SHARED | MAP_ANONYMOUS, -1, 0));
+            munmap(map, sizeof(int));
+            map[0] = '8';
+        } else if (crash_type == "seccomp") {
+//            set_system_seccomp_filter();
+//            syscall(99999);
+        } else if (crash_type == "xom") {//xom = excute only memory
+            // Try to read part of our code, which will fail if XOM is active.
+            //printf("*%lx = %lx\n", reinterpret_cast<long>(xom), *reinterpret_cast<long*>(xom));
+            LOGE("*%lx = %lx\n", reinterpret_cast<long>(xom), *reinterpret_cast<long*>(xom));
+        } else if (crash_type == "no_new_privs") {
+            if (prctl(PR_SET_NO_NEW_PRIVS, 1) != 0) {
+                //fprintf(stderr, "prctl(PR_SET_NO_NEW_PRIVS, 1) failed: %s\n", strerror(errno));
+                LOGE("prctl(PR_SET_NO_NEW_PRIVS, 1) failed: %s", strerror(errno));
+                return ;
+            }
+            abort();
+        } else if (crash_type == "functional-nullptr") {
             //function_nullptr(env);
         }
     };

@@ -9,9 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class NativeExceptionFunc {
-    static {
-        System.loadLibrary("native-exception-lib");
-    }
+
 
     static final int[] sCrashType = new int[] {
            R.string.smash_stack,

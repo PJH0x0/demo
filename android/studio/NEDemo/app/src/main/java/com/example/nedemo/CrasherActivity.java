@@ -19,6 +19,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CrasherActivity extends AppCompatActivity {
+    static {
+        System.loadLibrary("native-exception-lib");
+    }
     public static final String KEY_CRASH_NATIVE_THREAD = "crash_native_thread";
     private SlideRecyclerView mCrashRecyclerView;
     private List<CrashItem> mCrashItems = new ArrayList<>();
