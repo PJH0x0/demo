@@ -16,6 +16,13 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:text="@string/register_signal" />
+    <Button
+        android:id="@+id/fix_bti_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/fix_bti_check"/>
 
     <androidx.appcompat.widget.AppCompatCheckBox
         android:id="@+id/crash_in_native_thread"

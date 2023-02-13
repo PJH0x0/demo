@@ -11,7 +11,9 @@ import androidx.appcompat.widget.AppCompatCheckBox;
 
 public class MainActivity extends AppCompatActivity {
 
-
+    static {
+        System.loadLibrary("native-exception-lib");
+    }
     // Used to load the 'native-lib' library on application startup.
     Button mRegisterSignal;
     Button mKillSelf;
@@ -25,17 +27,21 @@ public class MainActivity extends AppCompatActivity {
         mRegisterSignal = findViewById(R.id.register_signal);
         mRegisterSignal.setOnClickListener(this::onClick);
         findViewById(R.id.select_crash_type).setOnClickListener(this::onClick);
+        findViewById(R.id.fix_bti_check).setOnClickListener(this::onClick);
         mCrashInNativeThreadCheckBox = findViewById(R.id.crash_in_native_thread);
     }
 
     public void onClick(View view) {
         int id = view.getId();
         if (id == R.id.register_signal) {
+            System.loadLibrary("xo");
             NativeExceptionFunc.nativeRegisterSignal();
         } else if (id == R.id.select_crash_type) {
             Intent intent = new Intent(this, CrasherActivity.class);
             intent.putExtra(CrasherActivity.KEY_CRASH_NATIVE_THREAD, mCrashInNativeThreadCheckBox.isChecked());
             startActivity(intent);
+        } else if (id == R.id.fix_bti_check) {
+            NativeExceptionFunc.fixBtiCheck();
         }
     }
 

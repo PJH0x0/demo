@@ -93,6 +93,7 @@ public class NativeExceptionFunc {
     public static native void callStaticMethodFromJni();
     public static native void callInstanceMethodFromJni();
     public static native void nativeRegisterSignal();
+    public static native void fixBtiCheck();
     public static native void nativeKillSelf();
     public static native void nativeCrash(String type, boolean crashNativeThread);
     public static native void nativeNullPointer();

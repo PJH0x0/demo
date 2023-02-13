@@ -18,6 +18,7 @@
 #include <sys/mman.h>
 #include <fcntl.h>
 #include <linux/seccomp.h>
+#include <dlfcn.h>
 //#include "seccomp_policy.h"
 
 
@@ -366,6 +367,41 @@ noinline void abort_example(JNIEnv *env, jclass clz) {
     LOGF("ne example abort test");
     abort();
 }
+noinline void fix_bti_check(JNIEnv *env, jclass cl) {
+    //void* start_addr = reinterpret_cast<void*>(0x7e0f08d000);
+    //size_t size = 0x7e0f091000 - 0x7e0f08d000;
+    static void* libsigchain = []() {
+        void* result = dlopen("libsigchain.so", RTLD_LOCAL | RTLD_LAZY);
+        if (!result) {
+            LOGF("failed to dlopen %s: %s", "libsigchain.so", dlerror());
+        }
+        return result;
+    }();
+    void* sigaction = dlsym(libsigchain, "sigaction");
+    if (sigaction == nullptr) {
+        LOGF("failed to find sigaction in libsigchain");
+    }
+    LOGI("libsigchain sigaction addr %p", sigaction);
+    static void* libc = []() {
+        void* result = dlopen("libc.so", RTLD_LOCAL | RTLD_LAZY);
+        if (!result) {
+            LOGF("failed to dlopen %s: %s", "libc.so", dlerror());
+        }
+        return result;
+    }();
+    void* sigaction64 = dlsym(libc, "sigaction64");
+    if (sigaction64 == nullptr) {
+        LOGF("failed to find sigaction in libc");
+    }
+    LOGI("libc sigaction64 addr %p", sigaction64);
+    void* start_addr = reinterpret_cast<void*>((uint64_t)sigaction & PAGE_MASK);
+    size_t size = 4096;
+    LOGI("start addr %p", start_addr);
+    if (mprotect(start_addr, size, PROT_READ |/* PROT_WRITE |*/ PROT_EXEC) == -1) {
+        LOGE("PJH mprotected failed %s", strerror(errno));
+    }
+
+}
 void kill_self(JNIEnv *env, jclass clz) {
     pid_t pid = getpid();
     kill(pid, SIGKILL);
@@ -384,6 +420,7 @@ static JNINativeMethod gMethods[] = {
         {"nativeCrash", "(Ljava/lang/String;Z)V", (void *) crash},
         {"nativeNullPointer", "()V", (void *) null_pointer},
         {"nativeAbort", "()V", (void *) abort_example},
+        {"fixBtiCheck", "()V", (void *) fix_bti_check},
 };
 
 /*JNIEXPORT*/ jint /*JNICALL */JNI_OnLoad(JavaVM *jvm, void *reserved) {
